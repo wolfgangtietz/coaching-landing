@@ -55,6 +55,34 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        import Script from "next/script";
+        <Script
+  id="ld-website"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "Wolfgang Tietz – Executive & Life Coaching",
+      url: "https://wolfgangtietz.com",
+      inLanguage: "de-DE",
+    }),
+  }}
+/>
+
+<Script
+  id="ld-person"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Wolfgang Tietz",
+      url: "https://wolfgangtietz.com",
+      jobTitle: "Executive Coach",
+    }),
+  }}
+/>
         {children}
       </body>
     </html>

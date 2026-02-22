@@ -1,4 +1,3 @@
-import Script from "next/script";
 import Reveal from "@/components/Reveal";
 import Accordion from "@/components/Accordion";
 import BookingSection from "@/components/BookingSection";
@@ -45,18 +44,7 @@ const personJsonLd = {
 export default function Home() {
   return (
     <>
-      <Script
-        id="ld-website"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
-      />
-      <Script
-        id="ld-person"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
-      />
-
-      <main className="min-h-screen">
+            <main className="min-h-screen">
         {/* Hero Section */}
         <section className="min-h-[70vh] flex flex-col justify-center px-6 max-w-5xl mx-auto py-24">
           <Reveal>
