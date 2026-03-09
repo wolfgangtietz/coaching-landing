@@ -46,13 +46,12 @@ export default function Home() {
     <>
             <main className="min-h-screen">
         {/* Hero Section */}
-        <section className="min-h-[70vh] flex flex-col justify-center px-6 max-w-5xl mx-auto py-24">
-          <Reveal>
-            <h1 className="text-5xl md:text-7xl font-light tracking-tight mb-8 leading-tight">
+        <section className="flex flex-col px-6 max-w-5xl mx-auto py-20">
+            <h1 className="text-5xl md:text-7xl font-light tracking-tight mb-8 leading-tight text-zinc-100">
   Führung, wenn sich das System verändert.
 </h1>
 
-<p className="text-xl md:text-2xl text-zinc-400 font-light mb-12 max-w-2xl">
+<p className="text-xl md:text-2xl text-zinc-400 font-light mb-6 max-w-2xl">
   Executive Coaching für Führungskräfte, deren Verantwortung bleibt,
   während sich Struktur, Machtarchitektur und Erwartungen verschieben.
 </p>
@@ -69,19 +68,18 @@ export default function Home() {
     30 Minuten. Vertraulich. Klarer Blick auf Situation und Rolle.
   </p>
 </div>
-          </Reveal>
+
         </section>
 
         {/* Results Section */}
-        <section className="py-32 px-6 bg-zinc-950/50">
-          <div className="max-w-5xl mx-auto space-y-24">
-            <Reveal delay={200}>
+        <section className="py-20 px-6 bg-zinc-950/50">
+          <div className="max-w-5xl mx-auto">
    <div className="grid md:grid-cols-3 gap-16">
   <div>
-    <span className="block text-zinc-600 mb-4 text-sm tracking-widest uppercase">
+    <span className="block text-zinc-500 mb-4 text-sm tracking-widest uppercase">
       01
     </span>
-    <h3 className="text-2xl font-light mb-2">Verantwortung</h3>
+    <h3 className="text-2xl font-light mb-2 text-zinc-100">erantwortung</h3>
     <p className="text-zinc-500 font-light">
       Sie tragen weiter Ergebnisverantwortung, obwohl sich Strukturen,
       Entscheidungswege und Zuständigkeiten verschieben.
@@ -91,7 +89,7 @@ export default function Home() {
     <span className="block text-zinc-600 mb-4 text-sm tracking-widest uppercase">
       02
     </span>
-    <h3 className="text-2xl font-light mb-2">Rollenklarheit</h3>
+    <h3 className="text-2xl font-light mb-2 text-zinc-100">Rollenklarheit</h3>
     <p className="text-zinc-500 font-light">
       Führung wird anspruchsvoller, wenn klassische Hierarchie an Wirkung
       verliert und Erwartungen gleichzeitig steigen.
@@ -101,21 +99,19 @@ export default function Home() {
     <span className="block text-zinc-600 mb-4 text-sm tracking-widest uppercase">
       03
     </span>
-    <h3 className="text-2xl font-light mb-2">Wirksamkeit</h3>
+    <h3 className="text-2xl font-light mb-2 text-zinc-100">Wirksamkeit</h3>
     <p className="text-zinc-500 font-light">
       Entscheidend ist nicht mehr nur Erfahrung, sondern die Fähigkeit,
       unter struktureller Unsicherheit handlungsfähig zu bleiben.
     </p>
   </div>
-</div>
-           
-            </Reveal>
+  </div>
           </div>
         </section>
 
         {/* Profile Section */}
-        <section className="py-32 px-6 max-w-3xl mx-auto">
-          <Reveal delay={300}>
+        <section className="py-12 px-6 max-w-3xl mx-auto">
+          <div>
             <div className="mb-16">
               <h2 className="text-zinc-500 text-sm tracking-[0.2em] uppercase mb-8">
                 Autorität
@@ -125,7 +121,7 @@ export default function Home() {
               </p>
             </div>
             <div className="space-y-6">
-              <p className="text-2xl font-light leading-relaxed">
+              <p className="text-2xl font-light leading-relaxed text-zinc-200">
   Ich begleite Führungskräfte, die in komplexen Organisationen unter
   veränderten strukturellen Bedingungen wirksam bleiben müssen. Meine
   Arbeit verbindet Führungserfahrung im Konzern, Transformationserfahrung
@@ -135,13 +131,13 @@ export default function Home() {
   Eindeutigkeit verliert.
 </p>
             </div>
-          </Reveal>
+          </div>
         </section>
 
         {/* Case Studies */}
-        <section className="py-32 px-6">
+        <section className="py-20 px-6">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl font-light mb-16 text-center">
+            <h2 className="text-3xl font-light mb-16 text-center text-zinc-100">
   Typische Führungssituationen
 </h2>
             <Accordion items={caseStudies} />
