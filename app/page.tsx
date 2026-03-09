@@ -49,23 +49,26 @@ export default function Home() {
         <section className="min-h-[70vh] flex flex-col justify-center px-6 max-w-5xl mx-auto py-24">
           <Reveal>
             <h1 className="text-5xl md:text-7xl font-light tracking-tight mb-8 leading-tight">
-              Identität ist größer <br />
-              <span className="text-zinc-500 italic">als jede Rolle.</span>
-            </h1>
-            <p className="text-xl md:text-2xl text-zinc-400 font-light mb-12 max-w-2xl">
-              Manche Übergänge verlangen bewusste Neuausrichtung.
-            </p>
-            <div className="flex flex-col items-start gap-4">
-              <a
-                href="#booking"
-                className="bg-zinc-100 text-black px-10 py-4 rounded-none text-lg font-medium hover:bg-white transition-all"
-              >
-                Perspektive klären
-              </a>
-              <p className="text-zinc-600 text-sm font-light">
-                30 Minuten. Vertraulich. Ohne Verpflichtung.
-              </p>
-            </div>
+  Führung, wenn sich das System verändert.
+</h1>
+
+<p className="text-xl md:text-2xl text-zinc-400 font-light mb-12 max-w-2xl">
+  Executive Coaching für Führungskräfte, deren Verantwortung bleibt,
+  während sich Struktur, Machtarchitektur und Erwartungen verschieben.
+</p>
+
+<div className="flex flex-col items-start gap-4">
+  <a
+    href="#booking"
+    className="bg-zinc-100 text-black px-10 py-4 rounded-none text-lg font-medium hover:bg-white transition-all"
+  >
+    Erstgespräch vereinbaren
+  </a>
+
+  <p className="text-zinc-600 text-sm font-light">
+    30 Minuten. Vertraulich. Klarer Blick auf Situation und Rolle.
+  </p>
+</div>
           </Reveal>
         </section>
 
@@ -73,35 +76,39 @@ export default function Home() {
         <section className="py-32 px-6 bg-zinc-950/50">
           <div className="max-w-5xl mx-auto space-y-24">
             <Reveal delay={200}>
-              <div className="grid md:grid-cols-3 gap-16">
-                <div>
-                  <span className="block text-zinc-600 mb-4 text-sm tracking-widest uppercase">
-                    01
-                  </span>
-                  <h3 className="text-2xl font-light mb-2">Klarheit</h3>
-                  <p className="text-zinc-500 font-light">
-                    Wahrheit jenseits der Erwartungen finden.
-                  </p>
-                </div>
-                <div>
-                  <span className="block text-zinc-600 mb-4 text-sm tracking-widest uppercase">
-                    02
-                  </span>
-                  <h3 className="text-2xl font-light mb-2">Neuausrichtung</h3>
-                  <p className="text-zinc-500 font-light">
-                    Strategischer Fokus für neue Etappen.
-                  </p>
-                </div>
-                <div>
-                  <span className="block text-zinc-600 mb-4 text-sm tracking-widest uppercase">
-                    03
-                  </span>
-                  <h3 className="text-2xl font-light mb-2">Aktivierung</h3>
-                  <p className="text-zinc-500 font-light">
-                    Wirksamkeit durch authentisches Handeln.
-                  </p>
-                </div>
-              </div>
+   <div className="grid md:grid-cols-3 gap-16">
+  <div>
+    <span className="block text-zinc-600 mb-4 text-sm tracking-widest uppercase">
+      01
+    </span>
+    <h3 className="text-2xl font-light mb-2">Verantwortung</h3>
+    <p className="text-zinc-500 font-light">
+      Sie tragen weiter Ergebnisverantwortung, obwohl sich Strukturen,
+      Entscheidungswege und Zuständigkeiten verschieben.
+    </p>
+  </div>
+  <div>
+    <span className="block text-zinc-600 mb-4 text-sm tracking-widest uppercase">
+      02
+    </span>
+    <h3 className="text-2xl font-light mb-2">Rollenklarheit</h3>
+    <p className="text-zinc-500 font-light">
+      Führung wird anspruchsvoller, wenn klassische Hierarchie an Wirkung
+      verliert und Erwartungen gleichzeitig steigen.
+    </p>
+  </div>
+  <div>
+    <span className="block text-zinc-600 mb-4 text-sm tracking-widest uppercase">
+      03
+    </span>
+    <h3 className="text-2xl font-light mb-2">Wirksamkeit</h3>
+    <p className="text-zinc-500 font-light">
+      Entscheidend ist nicht mehr nur Erfahrung, sondern die Fähigkeit,
+      unter struktureller Unsicherheit handlungsfähig zu bleiben.
+    </p>
+  </div>
+</div>
+           
             </Reveal>
           </div>
         </section>
