@@ -1,4 +1,3 @@
-import Reveal from "@/components/Reveal";
 import Accordion from "@/components/Accordion";
 import BookingSection from "@/components/BookingSection";
 
@@ -45,16 +44,31 @@ export default function Home() {
   return (
     <>
             <main className="min-h-screen">
+              <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+/>
+
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+/>
         {/* Hero Section */}
        <section className="flex flex-col items-center text-center px-6 max-w-4xl mx-auto py-32 md:py-40">
-            
+            <p className="text-xs tracking-[0.2em] text-zinc-500 uppercase mb-8">
+  Executive Coaching für Führung in komplexen Organisationen
+</p>
             <h1 className="text-5xl md:text-8xl font-light tracking-wide mb-16 leading-[1.15] text-zinc-100 max-w-3xl">
-  Führung, wenn sich das System verändert.
+  Führung, wenn Verantwortung bleibt,<br />
+aber das System sich verändert.
 </h1>
 
-<p className="text-lg md:text-xl text-zinc-400 font-light mb-10 max-w-2xl">
-  Executive Coaching für Führungskräfte, deren Verantwortung bleibt,
-  während sich Struktur, Machtarchitektur und Erwartungen verschieben.
+<p className="text-lg md:text-xl text-zinc-400 font-light mb-6 max-w-2xl">
+  Klarheit über Rolle, Macht und Handlungsspielraum in komplexen Organisationen.
+</p>
+
+<p className="text-xs tracking-[0.2em] text-zinc-500 uppercase mb-12">
+  Rollenwechsel · Transformation · politische Dynamik
 </p>
 
 <div className="flex flex-col items-center gap-6">
@@ -66,10 +80,12 @@ export default function Home() {
   </a>
 
   <p className="text-zinc-400 text-sm font-light">
-    30 Minuten. Vertraulich. Klarer Blick auf Situation und Rolle.
-  </p>
+  30 Minuten. Vertraulich. Kein Verkaufsgespräch.
+</p>
 </div>
-
+<p className="text-xs text-zinc-500 mt-8">
+  ICF PCC · EMCC Senior Practitioner
+</p>
         </section>
         <div className="max-w-4xl mx-auto border-t border-zinc-800 mt-16"></div>
 
@@ -110,7 +126,33 @@ export default function Home() {
   </div>
           </div>
         </section>
+<section className="py-28 px-6">
+  <div className="max-w-3xl mx-auto">
+    <h2 className="text-4xl font-light mb-16 text-zinc-100">
+      Typische Führungssituationen
+    </h2>
 
+    <ul className="space-y-8 text-zinc-300 text-lg font-light leading-relaxed">
+
+  <li>
+    Sie übernehmen eine neue Führungsrolle – und stellen fest, dass die alten Muster nicht mehr funktionieren.
+  </li>
+
+  <li>
+    Transformation verändert Strukturen, aber Verantwortung und Erwartungen bleiben bei Ihnen.
+  </li>
+
+  <li>
+    Sie bewegen sich zwischen widersprüchlichen Erwartungen von Vorstand, Peers und Organisation.
+  </li>
+
+  <li>
+    Sie müssen Entscheidungen treffen, obwohl die Systemlogik der Organisation selbst unscharf geworden ist.
+  </li>
+
+</ul>
+  </div>
+</section>
         {/* Profile Section */}
         <section className="py-24 px-6 max-w-3xl mx-auto">
           <div>
@@ -140,7 +182,7 @@ export default function Home() {
         <section className="py-28 px-6">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl font-light mb-16 text-center text-zinc-100">
-  Typische Führungssituationen
+  Beispiele aus der Praxis
 </h2>
             <Accordion items={caseStudies} />
           </div>
