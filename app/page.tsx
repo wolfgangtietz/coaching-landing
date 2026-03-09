@@ -3,11 +3,11 @@ import Accordion from "@/components/Accordion";
 import BookingSection from "@/components/BookingSection";
 
 const caseStudies = [
-  {
-    title: "Transformation der Führungskultur",
-    content:
-      "In einem mittelständischen Technologieunternehmen begleitete ich den CEO während eines radikalen Marktumschwungs. Durch die gezielte Arbeit an der eigenen Identität jenseits von Quartalszahlen gelang es, eine Kultur der psychologischen Sicherheit zu etablieren. Dies führte zu einer signifikanten Reduktion der Fluktuation im Management und einer beschleunigten Innovationsrate, da Führungskräfte lernten, Verantwortung neu zu definieren und Raum für operative Exzellenz zu schaffen.",
-  },
+ {
+  title: "Führung unter widersprüchlichen Erwartungen",
+  content:
+    "Ein Bereichsleiter in einem internationalen Industriekonzern stand zwischen Vorstandserwartungen, Transformation des Geschäftsmodells und zunehmender politischer Spannung zwischen Funktionen. Im Coaching ging es nicht um Methoden, sondern um Rollenklarheit: Wo endet operative Verantwortung, wo beginnt Systemdynamik? Durch diese Klärung konnte der Klient Entscheidungen konsequenter vertreten und seine Organisation stabil durch eine Phase hoher Unsicherheit führen.",
+},
   {
     title: "Post-Merger Integration",
     content:
@@ -126,12 +126,14 @@ export default function Home() {
             </div>
             <div className="space-y-6">
               <p className="text-2xl font-light leading-relaxed">
-                Seit über fünfzehn Jahren begleite ich Führungskräfte in Phasen
-                der Transformation. Mein Ansatz verbindet systemische Tiefe mit
-                radikaler Sachlichkeit. Ich arbeite ausschließlich mit Klienten,
-                die bereit sind, ihre Rolle als Mittel, nicht als Ziel zu
-                begreifen.
-              </p>
+  Ich begleite Führungskräfte, die in komplexen Organisationen unter
+  veränderten strukturellen Bedingungen wirksam bleiben müssen. Meine
+  Arbeit verbindet Führungserfahrung im Konzern, Transformationserfahrung
+  aus agilen und hybriden Systemen sowie professionelles Executive
+  Coaching. Im Mittelpunkt stehen Rollenklarheit, politische
+  Navigationsfähigkeit und wirksame Führung, wenn klassische Hierarchie an
+  Eindeutigkeit verliert.
+</p>
             </div>
           </Reveal>
         </section>
@@ -140,8 +142,8 @@ export default function Home() {
         <section className="py-32 px-6">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-light mb-16 text-center">
-              Case Studies
-            </h2>
+  Typische Führungssituationen
+</h2>
             <Accordion items={caseStudies} />
           </div>
         </section>
