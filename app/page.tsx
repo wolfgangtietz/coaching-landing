@@ -46,61 +46,63 @@ export default function Home() {
     <>
             <main className="min-h-screen">
         {/* Hero Section */}
-        <section className="flex flex-col px-6 max-w-5xl mx-auto py-20">
-            <h1 className="text-5xl md:text-7xl font-light tracking-tight mb-8 leading-tight text-zinc-100">
+       <section className="flex flex-col items-center text-center px-6 max-w-4xl mx-auto py-32 md:py-40">
+            
+            <h1 className="text-5xl md:text-8xl font-light tracking-wide mb-16 leading-[1.15] text-zinc-100 max-w-3xl">
   Führung, wenn sich das System verändert.
 </h1>
 
-<p className="text-xl md:text-2xl text-zinc-400 font-light mb-6 max-w-2xl">
+<p className="text-lg md:text-xl text-zinc-400 font-light mb-10 max-w-2xl">
   Executive Coaching für Führungskräfte, deren Verantwortung bleibt,
   während sich Struktur, Machtarchitektur und Erwartungen verschieben.
 </p>
 
-<div className="flex flex-col items-start gap-4">
+<div className="flex flex-col items-center gap-6">
   <a
     href="#booking"
-    className="bg-zinc-100 text-black px-10 py-4 rounded-none text-lg font-medium hover:bg-white transition-all"
+    className="bg-zinc-100 text-black px-12 py-3 rounded-sm text-base font-medium hover:bg-white hover:-translate-y-[1px] transition-all"
   >
     Erstgespräch vereinbaren
   </a>
 
-  <p className="text-zinc-600 text-sm font-light">
+  <p className="text-zinc-400 text-sm font-light">
     30 Minuten. Vertraulich. Klarer Blick auf Situation und Rolle.
   </p>
 </div>
 
         </section>
+        <div className="max-w-4xl mx-auto border-t border-zinc-800 mt-16"></div>
 
         {/* Results Section */}
-        <section className="py-20 px-6 bg-zinc-950/50">
+        <section className="pt-24 pb-32 px-6 bg-zinc-950/50">
           <div className="max-w-5xl mx-auto">
-   <div className="grid md:grid-cols-3 gap-16">
-  <div>
-    <span className="block text-zinc-500 mb-4 text-sm tracking-widest uppercase">
+   <div className="grid md:grid-cols-3 gap-20">
+  <div className="space-y-4">
+    <span className="block text-zinc-500 mb-8 text-lg tracking-widest font-light">
       01
     </span>
-    <h3 className="text-2xl font-light mb-2 text-zinc-100">erantwortung</h3>
-    <p className="text-zinc-500 font-light">
+    <h3 className="text-2xl font-light mb-4 text-zinc-100">Verantwortung</h3>
+    <p className="text-zinc-400 font-light leading-relaxed">
       Sie tragen weiter Ergebnisverantwortung, obwohl sich Strukturen,
       Entscheidungswege und Zuständigkeiten verschieben.
     </p>
   </div>
-  <div>
-    <span className="block text-zinc-600 mb-4 text-sm tracking-widest uppercase">
+  <div className="space-y-4">
+    <span className="block text-zinc-500 mb-8 text-lg tracking-widest font-light">
       02
     </span>
-    <h3 className="text-2xl font-light mb-2 text-zinc-100">Rollenklarheit</h3>
-    <p className="text-zinc-500 font-light">
+    <h3 className="text-2xl font-light mb-4 text-zinc-100">Rollenklarheit</h3>
+    <p className="text-zinc-400 font-light leading-relaxed">
       Führung wird anspruchsvoller, wenn klassische Hierarchie an Wirkung
       verliert und Erwartungen gleichzeitig steigen.
     </p>
   </div>
-  <div>
-    <span className="block text-zinc-600 mb-4 text-sm tracking-widest uppercase">
+  <div className="space-y-4">
+    <span className="block text-zinc-500 mb-8 text-lg tracking-widest font-light">
       03
     </span>
-    <h3 className="text-2xl font-light mb-2 text-zinc-100">Wirksamkeit</h3>
-    <p className="text-zinc-500 font-light">
+    <h3 className="text-2xl font-light mb-4 text-zinc-100">Wirksamkeit</h3>
+    <p className="text-zinc-400 font-light leading-relaxed">
       Entscheidend ist nicht mehr nur Erfahrung, sondern die Fähigkeit,
       unter struktureller Unsicherheit handlungsfähig zu bleiben.
     </p>
@@ -110,18 +112,18 @@ export default function Home() {
         </section>
 
         {/* Profile Section */}
-        <section className="py-12 px-6 max-w-3xl mx-auto">
+        <section className="py-24 px-6 max-w-3xl mx-auto">
           <div>
-            <div className="mb-16">
-              <h2 className="text-zinc-500 text-sm tracking-[0.2em] uppercase mb-8">
+            <div className="mb-12">
+              <h2 className="text-zinc-500 text-sm tracking-[0.2em] uppercase mb-12">
                 Autorität
               </h2>
-              <p className="text-xl font-light text-zinc-300">
+              <p className="text-xl font-light text-zinc-400">
                 ICF PCC · EMCC Senior Practitioner
               </p>
             </div>
             <div className="space-y-6">
-              <p className="text-2xl font-light leading-relaxed text-zinc-200">
+              <p className="text-xl font-light leading-relaxed text-zinc-300 max-w-2xl">
   Ich begleite Führungskräfte, die in komplexen Organisationen unter
   veränderten strukturellen Bedingungen wirksam bleiben müssen. Meine
   Arbeit verbindet Führungserfahrung im Konzern, Transformationserfahrung
@@ -135,9 +137,9 @@ export default function Home() {
         </section>
 
         {/* Case Studies */}
-        <section className="py-20 px-6">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl font-light mb-16 text-center text-zinc-100">
+        <section className="py-28 px-6">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-4xl font-light mb-16 text-center text-zinc-100">
   Typische Führungssituationen
 </h2>
             <Accordion items={caseStudies} />
