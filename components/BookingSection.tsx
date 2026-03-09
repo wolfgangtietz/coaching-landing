@@ -5,7 +5,7 @@ export default function BookingSection() {
   const [showMeetergo, setShowMeetergo] = useState(false);
 
   return (
-    <section id="booking" className="py-32 px-6 text-center border-t border-zinc-900">
+    <section id="booking" className="py-20 px-6 text-center border-t border-zinc-900">
       {!showMeetergo ? (
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl font-light mb-8 text-white">Bereit für eine neue Perspektive?</h2>
