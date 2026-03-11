@@ -13,14 +13,14 @@ export default function BookingSection() {
             onClick={() => setShowMeetergo(true)}
             className="bg-zinc-100 text-black px-12 py-5 rounded-none text-lg font-medium hover:bg-white transition-all transform hover:scale-[1.02]"
           >
-            Termin laden
+            Erstgespräch vereinbaren
           </button>
           <p className="mt-6 text-zinc-400 font-light">30 Minuten. Vertraulich. Ohne Verpflichtung.</p>
         </div>
       ) : (
         <div className="w-full max-w-4xl mx-auto min-h-[600px] animate-fade-in">
           <iframe
-            src="https://meetergo.com/de/ihr-link-platzhalter/30min"
+            src="https://cal.meetergo.com/wolfgangtietz/30-min-meeting-wolfgang"
             style={{ width: "100%", height: "700px", border: "none" }}
             title="Meetergo Booking"
           />

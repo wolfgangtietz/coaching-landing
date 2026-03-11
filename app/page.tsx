@@ -2,11 +2,14 @@ import Accordion from "@/components/Accordion";
 import BookingSection from "@/components/BookingSection";
 
 const caseStudies = [
- {
-  title: "Führung unter widersprüchlichen Erwartungen",
-  content:
-    "Ein Bereichsleiter in einem internationalen Industriekonzern stand zwischen Vorstandserwartungen, Transformation des Geschäftsmodells und zunehmender politischer Spannung zwischen Funktionen. Im Coaching ging es nicht um Methoden, sondern um Rollenklarheit: Wo endet operative Verantwortung, wo beginnt Systemdynamik? Durch diese Klärung konnte der Klient Entscheidungen konsequenter vertreten und seine Organisation stabil durch eine Phase hoher Unsicherheit führen.",
-},
+  {
+    title: "Bereichsleiter zwischen Vorstand, Transformation und interner Politik",
+    content: `Situation: Ein Bereichsleiter eines internationalen Industriekonzerns geriet zwischen Vorstandserwartungen, Transformation des Geschäftsmodells und zunehmender politischer Spannung zwischen Funktionen.
+
+Problem: Die Erwartungen aus verschiedenen Richtungen waren widersprüchlich, während gleichzeitig operative Verantwortung bestehen blieb.
+
+Ergebnis: Durch präzise Klärung von Rolle, Macht und Handlungsspielraum konnte der Klient Entscheidungen konsequenter vertreten und seine Organisation stabil durch eine Phase hoher Unsicherheit führen.`,
+  },
   {
     title: "Post-Merger Integration",
     content:
@@ -54,17 +57,18 @@ export default function Home() {
   dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
 />
         {/* Hero Section */}
+        
        <section className="flex flex-col items-center text-center px-6 max-w-4xl mx-auto py-32 md:py-40">
             <p className="text-xs tracking-[0.2em] text-zinc-500 uppercase mb-8">
-  Executive Coaching für Führung in komplexen Organisationen
+  Executive Coaching für Führung in Rollenwechsel, Transformation und politischer Organisationsdynamik
 </p>
             <h1 className="text-5xl md:text-8xl font-light tracking-wide mb-16 leading-[1.15] text-zinc-100 max-w-3xl">
   Führung, wenn Verantwortung bleibt,<br />
 aber das System sich verändert.
 </h1>
 
-<p className="text-lg md:text-xl text-zinc-400 font-light mb-6 max-w-2xl">
-  Klarheit über Rolle, Macht und Handlungsspielraum in komplexen Organisationen.
+<p className="text-zinc-500 text-sm font-light max-w-xl mx-auto mb-10">
+  Viele meiner Klienten führen Organisationen, deren formale Struktur klar ist – deren tatsächliche Entscheidungslogik jedoch nicht.
 </p>
 
 <p className="text-xs tracking-[0.2em] text-zinc-500 uppercase mb-12">
@@ -78,13 +82,18 @@ aber das System sich verändert.
   >
     Erstgespräch vereinbaren
   </a>
-
+  <a
+    href="#perspektiven"
+    className="text-zinc-400 text-sm font-light underline underline-offset-4 hover:text-zinc-200 transition-colors"
+  >
+    Zuerst meine Perspektive auf Führung lesen
+  </a>
   <p className="text-zinc-400 text-sm font-light">
   30 Minuten. Vertraulich. Kein Verkaufsgespräch.
 </p>
 </div>
-<p className="text-xs text-zinc-500 mt-8">
-  ICF PCC · EMCC Senior Practitioner
+<p className="text-xs text-zinc-400 mt-8">
+  Executive Coach · 20+ Jahre Führungserfahrung in internationalen Organisationen
 </p>
         </section>
         <div className="max-w-4xl mx-auto border-t border-zinc-800 mt-16"></div>
@@ -161,7 +170,7 @@ aber das System sich verändert.
                 Autorität
               </h2>
               <p className="text-xl font-light text-zinc-400">
-                ICF PCC · EMCC Senior Practitioner
+                Executive Coach · 20+ Jahre Erfahrung in internationalen Organisationen
               </p>
             </div>
             <div className="space-y-6">
@@ -179,17 +188,50 @@ aber das System sich verändert.
         </section>
 
         {/* Case Studies */}
+        <section id="perspektiven" className="py-28 px-6 border-t border-zinc-900">
+  <div className="max-w-3xl mx-auto">
+    <h2 className="text-4xl font-light mb-16 text-zinc-100">
+      Perspektiven auf Führung
+    </h2>
+
+    <ul className="space-y-8 text-zinc-300 text-lg font-light leading-relaxed">
+      <li>Führung scheitert in komplexen Organisationen selten an Kompetenz, sondern an ungeklärter Rolle, verdeckter Macht und widersprüchlichen Erwartungen.</li>
+      <li>Rollenwechsel auf Senior-Level</li>
+      <li>Transformation verändert Macht – nicht nur Prozesse</li>
+    </ul>
+  </div>
+</section>
         <section className="py-28 px-6">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl font-light mb-16 text-center text-zinc-100">
-  Beispiele aus der Praxis
+  Führungssituationen aus meiner Praxis
 </h2>
             <Accordion items={caseStudies} />
           </div>
         </section>
 
         {/* Booking */}
+        <section className="py-24 px-6 text-center border-t border-zinc-900">
+  <div className="max-w-2xl mx-auto">
+    <h2 className="text-3xl font-light mb-8 text-zinc-100">
+      Wenn Sie Ihre Situation vertraulich besprechen möchten
+    </h2>
+
+    <p className="text-zinc-400 font-light mb-12">
+      In einem ersten Gespräch klären wir Ihre aktuelle Führungssituation
+      und prüfen gemeinsam, ob ein Coaching sinnvoll ist.
+    </p>
+  </div>
+</section>
         <BookingSection />
+        <footer className="border-t border-zinc-900 mt-24 py-10 text-center">
+  <a
+    href="/session"
+    className="text-zinc-500 text-sm hover:text-zinc-300 transition-colors"
+  >
+    Für bestehende Klienten
+  </a>
+</footer>
       </main>
     </>
   );

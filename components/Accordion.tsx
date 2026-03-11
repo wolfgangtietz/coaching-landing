@@ -8,7 +8,7 @@ interface CaseStudy {
 }
 
 export default function Accordion({ items }: { items: CaseStudy[] }) {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
     <div className="max-w-3xl mx-auto border-t border-zinc-900">
