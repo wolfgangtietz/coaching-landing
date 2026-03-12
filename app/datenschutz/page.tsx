@@ -21,7 +21,14 @@ export default function Datenschutz() {
         <p className="text-zinc-300 leading-relaxed mt-4">
           E-Mail: wolfgang@wolfgangtietz.com
         </p>
+<h2 className="text-xl font-light mt-10 mb-4">Hinweis zum Coaching</h2>
+<p className="text-zinc-300 leading-relaxed">
+Coaching ist ein professioneller Reflexions- und Entwicklungsprozess.
+Der Coach unterstützt Klienten dabei, ihre Situation zu analysieren,
+Perspektiven zu entwickeln und eigene Entscheidungen zu treffen.
 
+Coaching stellt keine Beratung, Therapie oder Rechtsdienstleistung dar.
+</p>
         <h2 className="text-xl font-light mt-10 mb-4">Hosting</h2>
         <p className="text-zinc-300 leading-relaxed">
 Diese Website wird über den Hosting-Dienst Vercel betrieben.

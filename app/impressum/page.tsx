@@ -11,19 +11,19 @@ export default function Impressum() {
         <p className="text-zinc-300 leading-relaxed">
           Wolfgang Tietz<br />
           Executive Coaching<br />
-          [Ina-Seidel-Bogen 75]<br />
-          [81929 München]<br />
+          Ina-Seidel-Bogen 75<br />
+          81929 München<br />
           Deutschland
         </p>
 
         <p className="text-zinc-300 mt-6 leading-relaxed">
           E-Mail: wolfgang@wolfgangtietz.com
         </p>
-
+Tätigkeit: Professionelles Coaching von Führungskräften und Entscheidern.
         <p className="text-zinc-300 mt-6 leading-relaxed">
           Verantwortlich für den Inhalt nach §55 Abs. 2 RStV:<br />
           Wolfgang Tietz<br />
-          [Adresse wie oben]
+          Adresse wie oben
         </p>
       </section>
     </main>
