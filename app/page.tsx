@@ -64,8 +64,8 @@ export default function Home() {
   Executive Coaching für Führung in Rollenwechsel, Transformation und politischer Organisationsdynamik
 </p>
             <h1 className="text-5xl md:text-8xl font-light tracking-wide mb-16 leading-[1.15] text-zinc-100 max-w-3xl">
-  Führung, wenn Verantwortung bleibt,<br />
-aber das System sich verändert.
+  Führung, wenn sich Rolle, Macht
+und Erwartungen gleichzeitig verändern.
 </h1>
 
 <p className="text-zinc-500 text-sm font-light max-w-xl mx-auto mb-10">
