@@ -1,5 +1,6 @@
 import Accordion from "@/components/Accordion";
 import BookingSection from "@/components/BookingSection";
+import Link from "next/link";
 
 const caseStudies = [
   {
@@ -225,12 +226,15 @@ aber das System sich verändert.
 </section>
         <BookingSection />
         <footer className="border-t border-zinc-900 mt-24 py-10 text-center">
-  <a
-    href="/session"
-    className="text-zinc-500 text-sm hover:text-zinc-300 transition-colors"
-  >
-    Für bestehende Klienten
-  </a>
+  <div className="flex items-center justify-center gap-6 text-sm text-zinc-500">
+    <Link href="/impressum" className="hover:text-zinc-300 transition-colors">
+      Impressum
+    </Link>
+
+    <a href="/session" className="hover:text-zinc-300 transition-colors">
+      Für bestehende Klienten
+    </a>
+  </div>
 </footer>
       </main>
     </>

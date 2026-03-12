@@ -11,8 +11,8 @@ export default function Impressum() {
         <p className="text-zinc-300 leading-relaxed">
           Wolfgang Tietz<br />
           Executive Coaching<br />
-          [Straße Hausnummer]<br />
-          [PLZ Ort]<br />
+          [Ina-Seidel-Bogen 75]<br />
+          [81929 München]<br />
           Deutschland
         </p>
 
