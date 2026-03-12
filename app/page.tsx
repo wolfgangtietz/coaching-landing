@@ -194,11 +194,29 @@ export default function Home() {
       Perspektiven auf Führung
     </h2>
 
-    <ul className="space-y-8 text-zinc-300 text-lg font-light leading-relaxed">
-      <li>Führung scheitert in komplexen Organisationen selten an Kompetenz, sondern an ungeklärter Rolle, verdeckter Macht und widersprüchlichen Erwartungen.</li>
-      <li>Rollenwechsel auf Senior-Level</li>
-      <li>Transformation verändert Macht – nicht nur Prozesse</li>
-    </ul>
+    <div className="space-y-10 text-zinc-300 text-lg font-light leading-relaxed">
+  <p>
+    Führung scheitert in komplexen Organisationen selten an Kompetenz,
+    sondern an ungeklärter Rolle, verdeckter Macht und widersprüchlichen
+    Erwartungen. Wer nur auf persönliche Stärke setzt, unterschätzt die
+    strukturelle Realität, in der Entscheidungen tatsächlich entstehen.
+  </p>
+
+  <p>
+    Rollenwechsel auf Senior-Level sind meist keine fachliche, sondern eine
+    politische und identitäre Verschiebung. Entscheidend ist nicht nur, was
+    Sie können, sondern wofür Sie plötzlich stehen, woran Sie gemessen werden
+    und welche Erwartungssysteme auf Sie zugreifen.
+  </p>
+
+  <p>
+    Transformation verändert nicht nur Prozesse, sondern Macht, Einfluss und
+    Verantwortungszonen. Genau deshalb reichen klassische Führungsrezepte in
+    solchen Phasen oft nicht mehr aus. Führung wird zur Arbeit an
+    Orientierung, Positionierung und wirksamer Entscheidung unter
+    Unsicherheit.
+  </p>
+</div>
   </div>
 </section>
         <section className="py-28 px-6">
