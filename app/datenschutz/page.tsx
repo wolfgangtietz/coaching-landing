@@ -24,19 +24,36 @@ export default function Datenschutz() {
 
         <h2 className="text-xl font-light mt-10 mb-4">Hosting</h2>
         <p className="text-zinc-300 leading-relaxed">
-          Diese Website wird über Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA, gehostet.
-          Beim Aufruf der Website werden technisch notwendige Server-Logfiles verarbeitet, insbesondere
-          IP-Adresse, Datum und Uhrzeit der Anfrage, Browserinformationen und aufgerufene Seiten.
-          Die Verarbeitung erfolgt zum Zweck der sicheren und stabilen Bereitstellung der Website auf
-          Grundlage von Art. 6 Abs. 1 lit. f DSGVO.
-        </p>
+Diese Website wird über den Hosting-Dienst Vercel betrieben.
+
+Anbieter ist Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA.
+
+Beim Aufruf dieser Website werden technisch notwendige Server-Logfiles
+verarbeitet (z. B. IP-Adresse, Datum und Uhrzeit der Anfrage,
+Browserinformationen). Diese Daten werden verarbeitet, um die Stabilität
+und Sicherheit der Website zu gewährleisten.
+
+Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO
+(berechtigtes Interesse an einer sicheren und stabilen Bereitstellung der Website).
+Daten können auf Servern innerhalb der EU und der USA verarbeitet werden.
+Weitere Informationen zur Datenverarbeitung durch Vercel:
+https://vercel.com/legal/privacy-policy
+</p>
 
         <h2 className="text-xl font-light mt-10 mb-4">Terminbuchung</h2>
         <p className="text-zinc-300 leading-relaxed">
-          Für die Terminvereinbarung wird der Dienst Meetergo eingesetzt. Wenn Sie einen Termin buchen,
-          werden die von Ihnen eingegebenen Daten, insbesondere Name, E-Mail-Adresse und Termindaten,
-          zur Organisation und Durchführung des Termins verarbeitet.
-        </p>
+Für die Terminvereinbarung wird der Dienst Meetergo verwendet. Anbieter ist
+Meetergo GmbH, Hansaring 61, 50670 Köln, Deutschland.
+
+Wenn Sie einen Termin buchen, werden die von Ihnen eingegebenen Daten
+(insbesondere Name, E-Mail-Adresse und Terminangaben) zur Organisation und
+Durchführung des Termins verarbeitet.
+
+Beim Aufruf der Terminbuchungsfunktion werden technisch notwendige Daten
+an Meetergo übertragen. Weitere Informationen zur Datenverarbeitung finden
+Sie in der Datenschutzerklärung des Anbieters:
+https://meetergo.com/datenschutz
+</p>
 
         <h2 className="text-xl font-light mt-10 mb-4">Kontaktaufnahme</h2>
         <p className="text-zinc-300 leading-relaxed">
@@ -45,7 +62,14 @@ export default function Datenschutz() {
           Art. 6 Abs. 1 lit. b DSGVO, soweit die Anfrage auf den Abschluss oder die Durchführung eines
           Vertrags gerichtet ist, im Übrigen auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.
         </p>
-
+<h2 className="text-xl font-light mt-10 mb-4">SSL-Verschlüsselung</h2>
+<p className="text-zinc-300 leading-relaxed">
+Diese Website nutzt aus Sicherheitsgründen und zum Schutz der Übertragung
+vertraulicher Inhalte eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte
+Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von
+"http://" auf "https://" wechselt und an dem Schloss-Symbol in Ihrer
+Browserzeile.
+</p>
         <h2 className="text-xl font-light mt-10 mb-4">Ihre Rechte</h2>
         <p className="text-zinc-300 leading-relaxed">
           Sie haben das Recht auf Auskunft über die zu Ihrer Person gespeicherten Daten sowie auf

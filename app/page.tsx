@@ -22,7 +22,7 @@ Ergebnis: Durch präzise Klärung von Rolle, Macht und Handlungsspielraum konnte
       "Die Übergabe der Geschäftsführung an die nächste Generation erforderte mehr als nur rechtliche Verträge. Wir arbeiteten an der emotionalen Neuausrichtung des Seniors und der Rollenklärung des Juniors. Durch diesen tiefgreifenden Prozess wurde die Identität des Unternehmens gewahrt, während gleichzeitig Platz für moderne Führungsstrukturen geschaffen wurde. Die operative Stabilität blieb während des gesamten Übergangs von zwei Jahren vollumfänglich erhalten.",
   },
   {
-    title: "Executive Burnout Prävention",
+    title: "Führung unter extremer Belastung",
     content:
       "Ein High-Performance-Manager in der Automobilbranche stand kurz vor dem Point-of-no-Return. Durch eine bewusste Dekonstruktion der Leistungsidentität und eine Neuausrichtung der persönlichen Prioritäten wurde nicht nur die Gesundheit gesichert, sondern auch die Führungseffektivität gesteigert. Der Klient entwickelte eine Form der 'ruhigen Autorität', die seine Abteilung souveräner durch Krisenzeiten steuerte als der zuvor praktizierte Hyper-Aktivismus.",
   },
@@ -31,7 +31,7 @@ Ergebnis: Durch präzise Klärung von Rolle, Macht und Handlungsspielraum konnte
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Wolfgang Tietz – Executive & Life Coaching",
+  name: "Wolfgang Tietz – Executive Coaching",
   url: "https://wolfgangtietz.com",
   inLanguage: "de-DE",
 };
