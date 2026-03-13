@@ -80,7 +80,7 @@ export default function Home() {
     href="#booking"
     className="bg-zinc-100 text-black px-12 py-3 rounded-sm text-base font-medium hover:bg-white hover:-translate-y-[1px] transition-all"
   >
-    Führungssituation besprechen
+    Erstgespräch vereinbaren
   </a>
   <a
     href="#perspektiven"

@@ -18,7 +18,7 @@ den nächsten Coachingtermin vereinbaren.
         </p>
       </section>
 
-      <section className="max-w-4xl mx-auto border-t border-zinc-900 pt-12">
+      <section className="max-w-4xl mx-auto pt-12">
         <iframe
           src="https://cal.meetergo.com/wolfgangtietz/60-min-coaching"
           style={{ width: "100%", height: "900px", border: "none" }}
