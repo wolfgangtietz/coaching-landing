@@ -76,7 +76,7 @@ export default function Home() {
   </p>
 
   <p className="text-sm text-zinc-500 mt-8">
-    Dipl.-Ing. Elektrotechnik · ICF PCC
+    ICF PCC
   </p>
 </section>
        <section className="flex flex-col items-center text-center px-6 max-w-4xl mx-auto py-32 md:py-40">
