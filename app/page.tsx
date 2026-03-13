@@ -68,7 +68,7 @@ export default function Home() {
 </h1>
 
 <p className="text-zinc-500 text-sm font-light max-w-xl mx-auto mb-10">
-  Viele meiner Klienten führen Organisationen, deren formale Struktur klar ist – deren tatsächliche Entscheidungslogik jedoch nicht.
+  Sie tragen Verantwortung in Organisationen, deren formale Struktur klar ist – deren tatsächliche Entscheidungslogik jedoch nicht.
 </p>
 
 <p className="text-xs tracking-[0.2em] text-zinc-500 uppercase mb-12">
