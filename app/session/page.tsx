@@ -6,9 +6,9 @@ export default function SessionPage() {
           Wolfgang Tietz
         </p>
 
-        <h1 className="text-4xl md:text-6xl font-light leading-tight mb-8">
-          Coaching-Termin buchen
-        </h1>
+       <h1 className="text-4xl md:text-6xl font-light leading-tight mb-8">
+  Nächsten Coachingtermin vereinbaren
+</h1>
 <a
   href="/"
   className="text-zinc-500 text-sm underline underline-offset-4 hover:text-zinc-300 transition-colors"
