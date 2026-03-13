@@ -86,7 +86,7 @@ export default function Home() {
     href="#perspektiven"
     className="text-zinc-400 text-sm font-light underline underline-offset-4 hover:text-zinc-200 transition-colors"
   >
-    Zuerst meine Perspektive auf Führung lesen
+    Wie ich Führung in komplexen Organisationen sehe
   </a>
   <p className="text-zinc-400 text-sm font-light">
   30 Minuten. Vertraulich. Kein Verkaufsgespräch.
