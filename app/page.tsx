@@ -93,7 +93,7 @@ export default function Home() {
 </p>
 </div>
 <p className="text-xs text-zinc-400 mt-8">
-  Executive Coach · 20+ Jahre Führungserfahrung in internationalen Organisationen
+  Executive Coach · 20+ Jahre Erfahrung in internationalen Konzernen und Transformationen
 </p>
         </section>
         <div className="max-w-4xl mx-auto border-t border-zinc-800 mt-16"></div>
@@ -167,7 +167,7 @@ export default function Home() {
           <div>
             <div className="mb-12">
               <h2 className="text-zinc-500 text-sm tracking-[0.2em] uppercase mb-12">
-                Autorität
+                Kontext
               </h2>
               <p className="text-xl font-light text-zinc-400">
                 Executive Coach · 20+ Jahre Erfahrung in internationalen Organisationen
@@ -222,7 +222,7 @@ export default function Home() {
         <section className="py-28 px-6">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl font-light mb-16 text-center text-zinc-100">
-  Führungssituationen aus meiner Praxis
+  Führungssituationen, mit denen Klienten zu mir kommen
 </h2>
             <Accordion items={caseStudies} />
           </div>

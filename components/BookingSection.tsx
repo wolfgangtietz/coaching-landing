@@ -5,7 +5,7 @@ export default function BookingSection() {
   const [showMeetergo, setShowMeetergo] = useState(false);
 
   return (
-    <section id="booking" className="py-20 px-6 text-center border-t border-zinc-900">
+    <section id="booking" className="scroll-mt-32 py-20 px-6 text-center border-t border-zinc-900">
       {!showMeetergo ? (
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl font-light mb-8 text-white">Bereit für eine neue Perspektive?</h2>
@@ -15,7 +15,7 @@ export default function BookingSection() {
           >
             Erstgespräch vereinbaren
           </button>
-          <p className="mt-6 text-zinc-400 font-light">30 Minuten. Vertraulich. Ohne Verpflichtung.</p>
+          <p className="mt-6 text-zinc-400 font-light">30 Minuten. Vertraulich. Klärung Ihrer aktuellen Führungssituation.</p>
         </div>
       ) : (
         <div className="w-full max-w-4xl mx-auto min-h-[600px] animate-fade-in">
