@@ -254,7 +254,7 @@ export default function Home() {
     </Link>
 
     <Link href="/session" className="hover:text-zinc-300 transition-colors">
-      Für bestehende Klienten
+      Termin für Klienten
     </Link>
 
   </div>
