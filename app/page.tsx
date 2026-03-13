@@ -77,7 +77,7 @@ export default function Home() {
 
 <div className="flex flex-col items-center gap-6">
   <a
-    href="#booking"
+    href="#booking-button"
     className="bg-zinc-100 text-black px-12 py-3 rounded-sm text-base font-medium hover:bg-white hover:-translate-y-[1px] transition-all"
   >
     Erstgespräch vereinbaren

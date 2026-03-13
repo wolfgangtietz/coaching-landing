@@ -9,8 +9,9 @@ export default function BookingSection() {
       {!showMeetergo ? (
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl font-light mb-8 text-white">Bereit für eine neue Perspektive?</h2>
-          <button
-            onClick={() => setShowMeetergo(true)}
+         <button
+  id="booking-button"
+  onClick={() => setShowMeetergo(true)}
             className="bg-zinc-100 text-black px-12 py-3 rounded-sm text-base font-medium hover:bg-white hover:-translate-y-[1px] transition-all"
           >
             Erstgespräch vereinbaren
