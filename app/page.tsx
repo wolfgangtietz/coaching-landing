@@ -72,7 +72,7 @@ export default function Home() {
 </p>
 
 <p className="text-xs tracking-[0.2em] text-zinc-500 uppercase mb-12">
-  Rollenwechsel · Transformation · politische Dynamik
+  Rollenwechsel · Transformation · organisationale Machtstrukturen
 </p>
 
 <div className="flex flex-col items-center gap-6">
@@ -144,17 +144,17 @@ export default function Home() {
     <ul className="space-y-8 text-zinc-300 text-lg font-light leading-relaxed">
 
   <li>
+    Sie bewegen sich zwischen widersprüchlichen Erwartungen von Vorstand, Peers und Organisation.
+  </li>
+  
+  <li>
     Sie übernehmen eine neue Führungsrolle – und stellen fest, dass die alten Muster nicht mehr funktionieren.
   </li>
 
   <li>
     Transformation verändert Strukturen, aber Verantwortung und Erwartungen bleiben bei Ihnen.
   </li>
-
-  <li>
-    Sie bewegen sich zwischen widersprüchlichen Erwartungen von Vorstand, Peers und Organisation.
-  </li>
-
+  
   <li>
     Sie müssen Entscheidungen treffen, obwohl die Systemlogik der Organisation selbst unscharf geworden ist.
   </li>
