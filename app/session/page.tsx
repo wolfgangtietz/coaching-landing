@@ -1,3 +1,19 @@
+export const metadata = {
+  title: "Coachingtermin buchen – Wolfgang Tietz",
+  description: "Terminbuchung für Coachinggespräche mit Wolfgang Tietz.",
+  openGraph: {
+    title: "Wolfgang Tietz – Executive Coaching",
+    description: "Terminbuchung für Coachinggespräche",
+    images: [
+      {
+        url: "//og/default.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+};
+
 export default function SessionPage() {
   return (
     <main className="min-h-screen bg-black text-zinc-100 px-6 py-24">
