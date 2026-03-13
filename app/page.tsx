@@ -58,7 +58,27 @@ export default function Home() {
   dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
 />
         {/* Hero Section */}
-        
+        <section className="max-w-3xl mx-auto px-6 py-16 text-center">
+  <p className="text-sm tracking-[0.25em] text-zinc-500 uppercase mb-6">
+    Wolfgang Tietz
+  </p>
+
+  <p className="text-xl text-zinc-200 leading-relaxed">
+    Über 20 Jahre internationale Erfahrung in Technologie, Business und Transformation.
+  </p>
+
+  <p className="text-xl text-zinc-200 leading-relaxed mt-4">
+    Ingenieur. Marketing Executive. Agile Transformation Leader.
+  </p>
+
+  <p className="text-xl text-zinc-200 leading-relaxed mt-4">
+    Heute Sparringspartner für Führungskräfte in komplexen Organisationen.
+  </p>
+
+  <p className="text-sm text-zinc-500 mt-8">
+    Dipl.-Ing. Elektrotechnik · ICF PCC
+  </p>
+</section>
        <section className="flex flex-col items-center text-center px-6 max-w-4xl mx-auto py-32 md:py-40">
             <p className="text-xs tracking-[0.2em] text-zinc-500 uppercase mb-8">
   Executive Coaching für Führung in komplexen Organisationen

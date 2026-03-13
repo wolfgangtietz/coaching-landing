@@ -7,7 +7,7 @@ export default function BookingSection() {
   return (
     <section id="booking" className="scroll-mt-32 py-20 px-6 text-center border-t border-zinc-900">
       {!showMeetergo ? (
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-2xl mx-auto pt-8">
           <h2 className="text-3xl font-light mb-8 text-white">Bereit für eine neue Perspektive?</h2>
          <button
   id="booking-button"
