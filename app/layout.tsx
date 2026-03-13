@@ -15,33 +15,33 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://wolfgangtietz.com"),
-  title: "Wolfgang Tietz – Executive & Life Coaching",
+  title: "Wolfgang Tietz – Executive Coaching",
   description:
-    "Executive & Life Coaching für Führungs- und Lebensübergänge: Klarheit, Neuausrichtung, wirksames Handeln. 30 Min. vertrauliches Kennenlernen.",
+    "Executive Coaching für Führung in Rollenwechsel, Transformation und politischer Organisationsdynamik",
 alternates: {
   canonical: "/",
 },
   openGraph: {
     type: "website",
     url: "https://wolfgangtietz.com",
-    title: "Wolfgang Tietz – Executive & Life Coaching",
+    title: "Wolfgang Tietz – Executive Coaching",
     description:
-      "Executive & Life Coaching für Führungs- und Lebensübergänge: Klarheit, Neuausrichtung, wirksames Handeln. 30 Min. vertrauliches Kennenlernen.",
+      "Executive Coaching für Führung in Rollenwechsel, Transformation und politischer Organisationsdynamik",
     images: [
-      {
-        url: "/og/default.png",
+  {
+    url: "/og/default.png?v=2",
         width: 1200,
         height: 630,
-        alt: "Wolfgang Tietz – Executive & Life Coaching",
+        alt: "Wolfgang Tietz – Executive Coaching",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Wolfgang Tietz – Executive & Life Coaching",
+    title: "Wolfgang Tietz – Executive Coaching",
     description:
-      "Executive & Life Coaching für Führungs- und Lebensübergänge: Klarheit, Neuausrichtung, wirksames Handeln. 30 Min. vertrauliches Kennenlernen.",
+      "Executive Coaching für Führung in Rollenwechsel, Transformation und politischer Organisationsdynamik",
     images: ["/og/default.png"],
   },
 };
@@ -63,7 +63,7 @@ export default function RootLayout({
     __html: JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebSite",
-      name: "Wolfgang Tietz – Executive & Life Coaching",
+      name: "Wolfgang Tietz – Executive Coaching",
       url: "https://wolfgangtietz.com",
       inLanguage: "de-DE",
     }),

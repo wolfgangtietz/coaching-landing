@@ -191,8 +191,8 @@ export default function Home() {
         <section id="perspektiven" className="py-28 px-6 border-t border-zinc-900">
   <div className="max-w-3xl mx-auto">
     <h2 className="text-4xl font-light mb-16 text-zinc-100">
-      Perspektiven auf Führung
-    </h2>
+  Drei Beobachtungen zu Führung in komplexen Organisationen
+</h2>
 
     <div className="space-y-10 text-zinc-300 text-lg font-light leading-relaxed">
   <p>
