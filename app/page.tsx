@@ -58,7 +58,7 @@ export default function Home() {
   dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
 />
         {/* Hero Section */}
-        <section className="max-w-3xl mx-auto px-6 py-16 text-center">
+        <section className="max-w-2xl mx-auto px-6 py-28 text-center">
   <p className="text-sm tracking-[0.25em] text-zinc-500 uppercase mb-6">
     Wolfgang Tietz
   </p>
