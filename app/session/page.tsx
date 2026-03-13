@@ -23,7 +23,7 @@ Termin für unsere nächste Coaching-Session buchen.
 
       <section className="max-w-4xl mx-auto border-t border-zinc-900 pt-12">
         <iframe
-          src="https://cal.meetergo.com/wolfgangtietz/60-min-coaching-mit-wolfgang"
+          src="https://cal.meetergo.com/wolfgangtietz/60-min-coaching"
           style={{ width: "100%", height: "760px", border: "none" }}
           title="Coaching Session Booking"
         />
