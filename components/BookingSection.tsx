@@ -21,7 +21,7 @@ export default function BookingSection() {
         <div className="w-full max-w-4xl mx-auto min-h-[600px] animate-fade-in">
           <iframe
             src="https://cal.meetergo.com/wolfgangtietz/30-min-meeting-wolfgang"
-            style={{ width: "100%", height: "700px", border: "none" }}
+            style={{ width: "100%", height: "900px", border: "none" }}
             title="Meetergo Booking"
           />
         </div>
