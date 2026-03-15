@@ -26,12 +26,12 @@ export const metadata: Metadata = {
       "Executive Coaching für Führung in Rollenwechsel, Transformation und politischer Organisationsdynamik",
     images: [
   {
-    url: "/og/default.png?v=2",
-        width: 1200,
-        height: 630,
-        alt: "Wolfgang Tietz – Executive Coaching",
-      },
-    ],
+    url: "https://wolfgangtietz.com/og/default.png",
+    width: 1200,
+    height: 630,
+    alt: "Wolfgang Tietz – Executive Coaching",
+  },
+],
   },
 
   twitter: {

@@ -16,10 +16,11 @@ export const metadata: Metadata = {
   ],
 },
   twitter: {
-    card: "summary_large_image",
-    title: "Wolfgang Tietz – Executive Coaching",
-    description: "Terminbuchung für ein Coachinggespräch mit Executive Coach Wolfgang Tietz.",
-      },
+  card: "summary_large_image",
+  title: "Wolfgang Tietz – Executive Coaching",
+  description: "Terminbuchung für ein Coachinggespräch mit Executive Coach Wolfgang Tietz.",
+  images: ["https://wolfgangtietz.com/og/session.jpg"],
+},
 };
 
 export default function SessionPage() {
