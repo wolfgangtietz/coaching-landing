@@ -84,11 +84,13 @@ export default function Home() {
   Executive Coaching für Führung in komplexen Organisationen
 </p>
             <h1 className="text-5xl md:text-8xl font-light tracking-wide mb-16 leading-[1.15] text-zinc-100 max-w-3xl">
-  Führung, wenn Verantwortung bleibt, aber die Regeln sich verschieben.
+  Führung in komplexen Organisationen.
 </h1>
 
 <p className="text-zinc-500 text-sm font-light max-w-xl mx-auto mb-10">
-  Sie tragen Verantwortung in Organisationen, deren formale Struktur klar ist – deren tatsächliche Entscheidungslogik jedoch nicht.
+  Executive Sparring für Führungskräfte
+in Rollenwechsel, Transformation
+und politisch anspruchsvollen Kontexten.
 </p>
 
 <p className="text-xs tracking-[0.2em] text-zinc-500 uppercase mb-12">
