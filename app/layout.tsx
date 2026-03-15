@@ -18,9 +18,6 @@ export const metadata: Metadata = {
   title: "Wolfgang Tietz – Executive Coaching",
   description:
     "Executive Coaching für Führung in Rollenwechsel, Transformation und politischer Organisationsdynamik",
-alternates: {
-  canonical: "/",
-},
   openGraph: {
     type: "website",
     url: "https://wolfgangtietz.com",
