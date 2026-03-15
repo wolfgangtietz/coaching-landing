@@ -1,16 +1,22 @@
 export const metadata = {
   title: "Coachingtermin buchen – Wolfgang Tietz",
-  description: "Direkte Terminbuchung für ein Coachinggespräch mit Wolfgang Tietz.",
+  description: "Terminbuchung für ein Coachinggespräch mit Executive Coach Wolfgang Tietz.",
   openGraph: {
     title: "Wolfgang Tietz – Executive Coaching",
-    description: "Direkte Terminbuchung für Coachinggespräche",
+    description: "Terminbuchung für ein Coachinggespräch mit Executive Coach Wolfgang Tietz.",
     images: [
       {
-        url: "/og/session.png",
+        url: "https://wolfgangtietz.com/og/session-v2.png",
         width: 1200,
         height: 630,
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Wolfgang Tietz – Executive Coaching",
+    description: "Terminbuchung für ein Coachinggespräch mit Executive Coach Wolfgang Tietz.",
+    images: ["https://wolfgangtietz.com/og/session-v2.png"],
   },
 };
 
