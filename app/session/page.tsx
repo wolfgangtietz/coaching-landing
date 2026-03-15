@@ -6,7 +6,7 @@ export const metadata = {
     description: "Terminbuchung für ein Coachinggespräch mit Executive Coach Wolfgang Tietz.",
     images: [
       {
-        url: "https://wolfgangtietz.com/og/session.png?v=1",
+        url: "https://wolfgangtietz.com/og/session.png",
         width: 1200,
         height: 630,
       },
@@ -16,7 +16,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Wolfgang Tietz – Executive Coaching",
     description: "Terminbuchung für ein Coachinggespräch mit Executive Coach Wolfgang Tietz.",
-    images: ["https://wolfgangtietz.com/og/session.png?v=1"],
+    images: ["https://wolfgangtietz.com/og/session.png"],
   },
 };
 
