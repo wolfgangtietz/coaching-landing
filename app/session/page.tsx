@@ -45,7 +45,7 @@ den nächsten Coachingtermin vereinbaren.
 
       <section className="max-w-4xl mx-auto pt-12">
         <iframe
-          src="https://cal.meetergo.com/wolfgangtietz/60-min-coaching"
+          src="https://cal.meetergo.com/wolfgangtietz/coachingtermin"
           style={{ width: "100%", height: "900px", border: "none" }}
           title="Terminbuchung Coaching"
         />
