@@ -2,6 +2,7 @@ export const metadata = {
   title: "Coachingtermin buchen – Wolfgang Tietz",
   description: "Terminbuchung für ein Coachinggespräch mit Executive Coach Wolfgang Tietz.",
   openGraph: {
+  type: "website",
   url: "https://wolfgangtietz.com/session",
   title: "Wolfgang Tietz – Executive Coaching",
   description: "Terminbuchung für ein Coachinggespräch mit Executive Coach Wolfgang Tietz.",
