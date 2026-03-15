@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "Terminbuchung für ein Coachinggespräch mit Executive Coach Wolfgang Tietz.",
   images: [
     {
-      url: "https://wolfgangtietz.com/og/session.png",
+      url: "https://wolfgangtietz.com/og/session.jpg",
       width: 1200,
       height: 630,
     },
