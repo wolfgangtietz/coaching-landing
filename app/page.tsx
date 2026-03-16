@@ -75,7 +75,7 @@ Transformation und organisationalen Machtstrukturen.
     Erstgespräch vereinbaren
   </a>
     <p className="text-zinc-400 text-sm font-light">
-  30 Minuten. Vertraulich. Kein Verkaufsgespräch.
+  Ein erstes Gespräch. Vertraulich. Ohne Verpflichtung.
 </p>
 </div>
 
