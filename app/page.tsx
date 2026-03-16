@@ -81,7 +81,7 @@ und politisch anspruchsvollen Kontexten.
 </div>
 
         </section>
-        <div className="max-w-4xl mx-auto border-t border-zinc-800 mt-16"></div>
+        <div className="max-w-4xl mx-auto border-t border-zinc-800 mt-32"></div>
 
         {/* Results Section */}
         <section className="pt-24 pb-32 px-6 bg-zinc-950/50">
