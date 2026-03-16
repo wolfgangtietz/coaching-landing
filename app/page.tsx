@@ -79,9 +79,7 @@ und politisch anspruchsvollen Kontexten.
   30 Minuten. Vertraulich. Kein Verkaufsgespräch.
 </p>
 </div>
-<p className="text-xs text-zinc-400 mt-8">
-  Executive Coach · 20+ Jahre Erfahrung in internationalen Konzernen und Transformationen
-</p>
+
         </section>
         <div className="max-w-4xl mx-auto border-t border-zinc-800 mt-16"></div>
 
