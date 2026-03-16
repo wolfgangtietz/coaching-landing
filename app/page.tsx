@@ -60,7 +60,7 @@ export default function Home() {
         {/* Hero Section */}
               <section className="flex flex-col items-center text-center px-6 max-w-4xl mx-auto py-32 md:py-40">
                         <h1 className="text-5xl md:text-8xl font-light tracking-wide mb-16 leading-[1.15] text-zinc-100 max-w-4xl">
-  Führung in komplexen Organisationen.
+  Führung unter komplexen Bedingungen.
 </h1>
 
 <p className="text-zinc-500 text-sm font-light max-w-xl mx-auto mb-10">
