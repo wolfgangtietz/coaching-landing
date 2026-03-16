@@ -91,7 +91,7 @@ und politisch anspruchsvollen Kontexten.
     <span className="block text-zinc-500 mb-8 text-lg tracking-widest font-light">
       01
     </span>
-    <h3 className="text-2xl font-light mb-4 text-zinc-100">Verantwortung</h3>
+    <h3 className="text-2xl font-light mb-4 text-zinc-100">Widersprüchliche Erwartungen</h3>
     <p className="text-zinc-400 font-light leading-relaxed">
       Sie tragen weiter Ergebnisverantwortung, obwohl sich Strukturen,
       Entscheidungswege und Zuständigkeiten verschieben.
@@ -101,7 +101,7 @@ und politisch anspruchsvollen Kontexten.
     <span className="block text-zinc-500 mb-8 text-lg tracking-widest font-light">
       02
     </span>
-    <h3 className="text-2xl font-light mb-4 text-zinc-100">Rollenklarheit</h3>
+    <h3 className="text-2xl font-light mb-4 text-zinc-100">Neue Rolle</h3>
     <p className="text-zinc-400 font-light leading-relaxed">
       Führung wird anspruchsvoller, wenn klassische Hierarchie an Wirkung
       verliert und Erwartungen gleichzeitig steigen.
@@ -111,7 +111,7 @@ und politisch anspruchsvollen Kontexten.
     <span className="block text-zinc-500 mb-8 text-lg tracking-widest font-light">
       03
     </span>
-    <h3 className="text-2xl font-light mb-4 text-zinc-100">Wirksamkeit</h3>
+    <h3 className="text-2xl font-light mb-4 text-zinc-100">Organisation im Wandel</h3>
     <p className="text-zinc-400 font-light leading-relaxed">
       Entscheidend ist nicht mehr nur Erfahrung, sondern die Fähigkeit,
       unter struktureller Unsicherheit handlungsfähig zu bleiben.
