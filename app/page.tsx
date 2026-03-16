@@ -64,9 +64,8 @@ export default function Home() {
 </h1>
 
 <p className="text-zinc-500 text-sm font-light max-w-xl mx-auto mb-10">
-  Executive Sparring für Führungskräfte
-in Rollenwechsel, Transformation
-und politisch anspruchsvollen Kontexten.
+  Executive Sparring in Rollenwechseln,
+Transformation und organisationalen Machtstrukturen.
 </p>
 <div className="flex flex-col items-center gap-6">
   <a
@@ -81,7 +80,7 @@ und politisch anspruchsvollen Kontexten.
 </div>
 
         </section>
-        <div className="max-w-4xl mx-auto border-t border-zinc-800 mt-32"></div>
+        <div className="max-w-4xl mx-auto border-t border-zinc-700 mt-32"></div>
 
         {/* Results Section */}
         <section className="pt-32 pb-40 px-6 bg-zinc-950/50">
