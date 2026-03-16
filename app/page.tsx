@@ -87,6 +87,10 @@ und politisch anspruchsvollen Kontexten.
         <section className="pt-32 pb-40 px-6 bg-zinc-950/50">
           <div className="max-w-5xl mx-auto">
 
+<h2 className="text-4xl font-light text-center mb-12 text-zinc-100">
+Strukturelle Spannungen in Organisationen
+</h2>
+
 <p className="text-center text-zinc-400 font-light mb-20 max-w-2xl mx-auto">
 Viele Coachinganfragen entstehen nicht aus persönlichen Problemen,
 sondern aus strukturellen Spannungen in Organisationen.
