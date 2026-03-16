@@ -69,7 +69,7 @@ in Rollenwechsel, Transformation
 und politisch anspruchsvollen Kontexten.
 </p>
 
-<p className="text-xs tracking-[0.2em] text-zinc-500 uppercase mb-12">
+<p className="text-xs tracking-[0.2em] text-zinc-500 uppercase mb-20">
   Rollenwechsel · Transformation · organisationale Machtstrukturen
 </p>
 
@@ -80,13 +80,7 @@ und politisch anspruchsvollen Kontexten.
   >
     Erstgespräch vereinbaren
   </a>
-  <a
-    href="#perspektiven"
-    className="text-zinc-400 text-sm font-light underline underline-offset-4 hover:text-zinc-200 transition-colors"
-  >
-    Wie ich Führung in komplexen Organisationen sehe
-  </a>
-  <p className="text-zinc-400 text-sm font-light">
+    <p className="text-zinc-400 text-sm font-light">
   30 Minuten. Vertraulich. Kein Verkaufsgespräch.
 </p>
 </div>
