@@ -86,7 +86,13 @@ und politisch anspruchsvollen Kontexten.
         {/* Results Section */}
         <section className="pt-24 pb-32 px-6 bg-zinc-950/50">
           <div className="max-w-5xl mx-auto">
-   <div className="grid md:grid-cols-3 gap-20">
+
+<p className="text-center text-zinc-400 font-light mb-20 max-w-2xl mx-auto">
+Viele Coachinganfragen entstehen nicht aus persönlichen Problemen,
+sondern aus strukturellen Spannungen in Organisationen.
+</p>
+
+<div className="grid md:grid-cols-3 gap-24">
   <div className="space-y-4">
     <span className="block text-zinc-500 mb-8 text-lg tracking-widest font-light">
       01
