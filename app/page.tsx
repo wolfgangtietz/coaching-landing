@@ -72,7 +72,7 @@ Transformation und organisationalen Machtstrukturen.
     href="#booking-button"
     className="bg-zinc-100 text-black px-12 py-3 rounded-sm text-base font-medium hover:bg-white hover:-translate-y-[1px] transition-all"
   >
-    Erstgespräch vereinbaren
+    Gespräch vereinbaren
   </a>
     <p className="text-zinc-400 text-sm font-light">
   Ein erstes Gespräch. Vertraulich. Ohne Verpflichtung.
