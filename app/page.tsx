@@ -68,11 +68,6 @@ export default function Home() {
 in Rollenwechsel, Transformation
 und politisch anspruchsvollen Kontexten.
 </p>
-
-<p className="text-xs tracking-[0.2em] text-zinc-500 uppercase mb-20">
-  Rollenwechsel · Transformation · organisationale Machtstrukturen
-</p>
-
 <div className="flex flex-col items-center gap-6">
   <a
     href="#booking-button"
