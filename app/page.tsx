@@ -129,7 +129,7 @@ sondern aus strukturellen Spannungen in Organisationen.
 <section className="py-28 px-6">
   <div className="max-w-3xl mx-auto">
     <h2 className="text-4xl font-light mb-16 text-zinc-100">
-      Typische Führungssituationen
+      Situationen aus meiner Coachingpraxis
     </h2>
 
     <ul className="space-y-8 text-zinc-300 text-lg font-light leading-relaxed">
@@ -223,7 +223,7 @@ sondern aus strukturellen Spannungen in Organisationen.
         <section className="py-24 px-6 text-center border-t border-zinc-900">
   <div className="max-w-2xl mx-auto">
     <h2 className="text-3xl font-light mb-8 text-zinc-100">
-      Wenn Sie Ihre Situation vertraulich besprechen möchten
+      Ein erstes Gespräch über Ihre aktuelle Führungssituation
     </h2>
 
     <p className="text-zinc-400 font-light mb-12">
