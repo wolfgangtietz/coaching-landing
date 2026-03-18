@@ -271,11 +271,18 @@ sondern aus widersprüchlichen Erwartungen zwischen unterschiedlichen Teilen der
   Ein erstes Gespräch über Ihre aktuelle Situation
 </h2>
 
-<p className="text-zinc-400 font-light mb-12">
-  In diesem Gespräch schildern Sie Ihre aktuelle Situation.
-  Wir betrachten gemeinsam, worum es in Ihrer Entscheidungssituation geht
-  und ob ein Coachinggespräch sinnvoll sein kann.
-</p>
+<>
+  <p className="text-zinc-400 font-light mb-8">
+    Viele meiner Klienten kommen mit einer Entscheidungssituation,
+    die sie bereits lange analysiert haben – und trotzdem nicht
+    abschließend klären konnten.
+  </p>
+
+  <p className="text-zinc-400 font-light mb-12">
+    Im Gespräch betrachten wir gemeinsam,
+    worum es in Ihrer Situation tatsächlich geht.
+  </p>
+</>
   </div>
 </section>
         <BookingSection />
