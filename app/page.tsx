@@ -77,7 +77,7 @@ export default function Home() {
   dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
 />
         {/* Hero Section */}
-              <section className="flex flex-col items-center text-center px-6 max-w-4xl mx-auto py-32 md:py-40">
+              <section className="flex flex-col items-center text-center px-6 max-w-4xl mx-auto py-40 md:py-52">
                         <h1 className="text-5xl md:text-8xl font-light tracking-tight mb-16 leading-[1.15] text-zinc-100 max-w-4xl">
   Die schwierigsten Entscheidungen entstehen dort,
 wo Erwartungen sich widersprechen.
@@ -93,10 +93,7 @@ wo Erwartungen sich widersprechen.
 >
   Erstgespräch vereinbaren
 </Link>
-   <h2 className="text-3xl font-light mb-8 text-zinc-100">
-  Erstgespräch
-</h2>
-</div>
+   </div>
 
         </section>
         <div className="max-w-4xl mx-auto border-t border-zinc-700 mt-32"></div>
