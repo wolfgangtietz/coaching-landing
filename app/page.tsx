@@ -230,27 +230,24 @@ sondern aus widersprüchlichen Erwartungen zwischen unterschiedlichen Teilen der
   Entscheidungen in komplexen Organisationen
 </h2>
 
-    <div className="space-y-10 text-zinc-300 text-lg font-light leading-relaxed">
+<div className="space-y-10 text-zinc-300 text-lg font-light leading-relaxed">
   <p>
-    Führung scheitert in komplexen Organisationen selten an Kompetenz,
-    sondern an ungeklärter Rolle, verdeckter Macht und widersprüchlichen
-    Erwartungen. Wer nur auf persönliche Stärke setzt, unterschätzt die
-    strukturelle Realität, in der Entscheidungen tatsächlich entstehen.
+    Schwierige Entscheidungen entstehen in komplexen Organisationen selten aus
+    mangelnder Information. Häufiger entstehen sie dort, wo unterschiedliche
+    Teile der Organisation Erwartungen formulieren, die nicht vollständig
+    miteinander vereinbar sind.
   </p>
 
   <p>
-    Rollenwechsel auf Senior-Level sind meist keine fachliche, sondern eine
-    politische und identitäre Verschiebung. Entscheidend ist nicht nur, was
-    Sie können, sondern wofür Sie plötzlich stehen, woran Sie gemessen werden
-    und welche Erwartungssysteme auf Sie zugreifen.
+    Verantwortungsträger kennen ihre Organisation in solchen Situationen meist
+    sehr genau. Optionen sind analysiert, Argumente sind ausgetauscht – und
+    trotzdem bleibt eine Entscheidung offen.
   </p>
 
   <p>
-    Transformation verändert nicht nur Prozesse, sondern Macht, Einfluss und
-    Verantwortungszonen. Genau deshalb reichen klassische Führungsrezepte in
-    solchen Phasen oft nicht mehr aus. Führung wird zur Arbeit an
-    Orientierung, Positionierung und wirksamer Entscheidung unter
-    Unsicherheit.
+    Entscheidend wird dann nicht zusätzliche Analyse, sondern die Fähigkeit,
+    die Situation so zu betrachten, dass sichtbar wird, worum es tatsächlich
+    geht und welche Handlungsmöglichkeiten realistisch sind.
   </p>
 </div>
   </div>
