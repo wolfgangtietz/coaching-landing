@@ -135,15 +135,15 @@ sondern aus widersprüchlichen Erwartungen zwischen unterschiedlichen Teilen der
     </p>
   </div>
   <div className="space-y-4">
-    <span className="block text-zinc-500 mb-8 text-lg tracking-widest font-light">
-      02
-    </span>
-    <h3 className="text-2xl font-light mb-4 text-zinc-100">Neue Rolle</h3>
-    <p className="text-zinc-400 font-light leading-relaxed">
-      Führung wird anspruchsvoller, wenn klassische Hierarchie an Wirkung
-      verliert und Erwartungen gleichzeitig steigen.
-    </p>
-  </div>
+  <span className="block text-zinc-500 mb-8 text-lg tracking-widest font-light">
+    02
+  </span>
+  <h3 className="text-2xl font-light mb-4 text-zinc-100">Unklare Rolle</h3>
+  <p className="text-zinc-400 font-light leading-relaxed">
+    Entscheidungen werden schwieriger, wenn Erwartungen an die eigene Rolle
+    nicht deckungsgleich sind.
+  </p>
+</div>
   <div className="space-y-4">
     <span className="block text-zinc-500 mb-8 text-lg tracking-widest font-light">
       03
