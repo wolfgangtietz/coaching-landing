@@ -87,12 +87,12 @@ wo Erwartungen sich widersprechen.
   Executive Coaching für Verantwortungsträger in komplexen Organisationen.
 </p>
 <div className="flex flex-col items-center gap-6">
-  <a
-    href="#booking-button"
-    className="bg-zinc-100 text-black px-12 py-3 rounded-sm text-base font-medium hover:bg-white hover:-translate-y-[1px] transition-all"
-  >
-    Erstgespräch vereinbaren
-  </a>
+  <Link
+  href="/session"
+  className="bg-zinc-100 text-black px-12 py-3 rounded-sm text-base font-medium hover:bg-white hover:-translate-y-[1px] transition-all"
+>
+  Erstgespräch vereinbaren
+</Link>
    <h2 className="text-3xl font-light mb-8 text-zinc-100">
   Erstgespräch
 </h2>
