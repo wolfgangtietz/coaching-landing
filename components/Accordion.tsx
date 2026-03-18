@@ -32,7 +32,9 @@ export default function Accordion({ items }: { items: CaseStudy[] }) {
               openIndex === index ? "max-h-[1000px] pb-8" : "max-h-0"
             }`}
           >
-            <p className="text-zinc-400 leading-relaxed font-light pl-2">{item.content}</p>
+            <p className="text-zinc-400 leading-relaxed font-light pl-2 whitespace-pre-line">
+  {item.content}
+</p>
           </div>
         </div>
       ))}
