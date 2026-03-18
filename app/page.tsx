@@ -4,12 +4,16 @@ import Link from "next/link";
 
 const caseStudies = [
   {
-    title: "Bereichsleiter zwischen Vorstand, Transformation und interner Politik",
-    content: `Situation: Ein Bereichsleiter eines internationalen Industriekonzerns geriet zwischen Vorstandserwartungen, Transformation des Geschäftsmodells und zunehmender politischer Spannung zwischen Funktionen.
+    title: "Entscheidung zwischen widersprüchlichen Erwartungen",
+content: `Situation: Ein Bereichsleiter eines internationalen Industriekonzerns stand zwischen Erwartungen des Vorstands, Anforderungen aus den Regionen und Interessen zentraler Funktionen.
 
-Problem: Die Erwartungen aus verschiedenen Richtungen waren widersprüchlich, während gleichzeitig operative Verantwortung bestehen blieb.
+Die Situation war sachlich analysiert und verschiedene Optionen lagen auf dem Tisch. Trotzdem wurde die Entscheidung immer wieder verschoben.
 
-Ergebnis: Durch präzise Klärung von Rolle, Macht und Handlungsspielraum konnte der Klient Entscheidungen konsequenter vertreten und seine Organisation stabil durch eine Phase hoher Unsicherheit führen.`,
+Dynamik: Im Gespräch wurde sichtbar, dass neben den organisatorischen Erwartungen auch persönliche Verantwortungsmaßstäbe des Klienten eine Rolle spielten.
+
+Bestimmte Optionen waren rational möglich, fühlten sich jedoch schwer vertretbar an.
+
+Ergebnis: Die Situation wurde klarer, wodurch eine Entscheidung möglich wurde, die zuvor immer wieder vermieden worden war.`,
   },
   {
     title: "Post-Merger Integration",
