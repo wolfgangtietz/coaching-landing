@@ -16,9 +16,16 @@ Bestimmte Optionen waren rational möglich, fühlten sich jedoch schwer vertretb
 Ergebnis: Die Situation wurde klarer, wodurch eine Entscheidung möglich wurde, die zuvor immer wieder vermieden worden war.`,
   },
   {
-    title: "Post-Merger Integration",
-    content:
-      "Nach der Fusion zweier Finanzdienstleister unterstützte ich die Integrationsphase auf Vorstandsebene. Der Fokus lag auf der Auflösung von Rollenkonflikten und der Neuausrichtung des gemeinsamen Wertekompasses. Innerhalb von sechs Monaten konnte die Reibung zwischen den Abteilungen halbiert werden. Die Führungsebene fand zu einer geschlossenen Kommunikation zurück, die auf Authentizität statt auf politischem Kalkül basierte.",
+    t{
+  title: "Strategische Entscheidung im Führungskreis",
+  content: `Situation: Nach einer größeren organisatorischen Veränderung stand ein Führungsteam vor einer strategischen Richtungsentscheidung.
+
+Sachlich waren mehrere Optionen möglich. Gleichzeitig vertraten unterschiedliche Teile der Organisation Erwartungen, die nicht vollständig miteinander vereinbar waren.
+
+Dynamik: Im Gespräch wurde sichtbar, welche Erwartungen tatsächlich entscheidungsrelevant waren und welche eher Ausdruck organisatorischer Dynamik.
+
+Ergebnis: Die Entscheidungssituation wurde klarer, sodass die nächsten Schritte im Führungskreis vorbereitet und vertreten werden konnten.`,
+},
   },
   {
     title: "Nachfolge im Familienunternehmen",
