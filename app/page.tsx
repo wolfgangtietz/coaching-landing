@@ -5,68 +5,56 @@ import Link from "next/link";
 const caseStudies = [
   {
     title: "Entscheidung zwischen widersprüchlichen Erwartungen",
-    content: `Situation:
-
+    content: `**Situation**
 Ein Bereichsleiter eines internationalen Industriekonzerns stand zwischen Erwartungen des Vorstands, Anforderungen aus den Regionen und Interessen zentraler Funktionen.
 
 Die Situation war sachlich analysiert und verschiedene Optionen lagen auf dem Tisch. Trotzdem wurde die Entscheidung immer wieder verschoben.
 
-Dynamik:
-
+**Dynamik**
 Im Gespräch wurde sichtbar, dass neben den organisatorischen Erwartungen auch persönliche Verantwortungsmaßstäbe des Klienten eine Rolle spielten.
 
 Bestimmte Optionen waren rational möglich, fühlten sich jedoch schwer vertretbar an.
 
-Ergebnis:
-
+**Ergebnis**
 Die Situation wurde klarer, wodurch eine Entscheidung möglich wurde, die zuvor immer wieder vermieden worden war.`,
   },
   {
     title: "Strategische Entscheidung im Führungskreis",
-    content: `Situation:
-
+    content: `**Situation**
 Nach einer größeren organisatorischen Veränderung stand ein Führungsteam vor einer strategischen Richtungsentscheidung.
 
 Sachlich waren mehrere Optionen möglich. Gleichzeitig vertraten unterschiedliche Teile der Organisation Erwartungen, die nicht vollständig miteinander vereinbar waren.
 
-Dynamik:
-
+**Dynamik**
 Im Gespräch wurde sichtbar, welche Erwartungen tatsächlich entscheidungsrelevant waren und welche eher Ausdruck organisatorischer Dynamik waren.
 
-Ergebnis:
-
+**Ergebnis**
 Die Entscheidungssituation wurde klarer, sodass die nächsten Schritte im Führungskreis vorbereitet und vertreten werden konnten.`,
   },
   {
     title: "Geschäftsführung im Mittelstand zwischen Markt, Organisation und Verantwortung",
-    content: `Situation:
-
+    content: `**Situation**
 Ein Geschäftsführer eines mittelständischen Unternehmens stand zwischen steigenden Markterwartungen, internen Führungsanforderungen und der eigenen Verantwortung für zentrale Entscheidungen.
 
 Viele Themen liefen weiterhin über seinen Schreibtisch, obwohl klar war, dass diese Struktur langfristig nicht tragfähig war.
 
-Dynamik:
-
+**Dynamik**
 Im Gespräch wurde sichtbar, welche Entscheidungen tatsächlich delegierbar waren und wo persönliche Verantwortungsmaßstäbe eine Rolle spielten.
 
-Ergebnis:
-
+**Ergebnis**
 Die Situation wurde klarer, wodurch konkrete Entscheidungen über Prioritäten, Delegation und eigene Rolle möglich wurden.`,
   },
   {
     title: "Transformation zwischen Geschwindigkeit und Stabilität",
-    content: `Situation:
-
+    content: `**Situation**
 Ein Programmleiter verantwortete eine größere Transformation, während das operative Geschäft gleichzeitig stabil weiterlaufen musste.
 
 Die Erwartungen aus unterschiedlichen Teilen der Organisation waren nachvollziehbar, aber nicht vollständig vereinbar.
 
-Dynamik:
-
+**Dynamik**
 Im Gespräch wurde sichtbar, welche Konsequenzen einzelne Optionen tatsächlich hatten und welche Erwartungen dabei eine Rolle spielten.
 
-Ergebnis:
-
+**Ergebnis**
 Die Situation wurde klarer, sodass Prioritäten gesetzt und Entscheidungen getroffen werden konnten, die zuvor immer wieder aufgeschoben worden waren.`,
   },
 ];
