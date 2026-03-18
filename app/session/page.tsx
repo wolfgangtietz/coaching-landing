@@ -4,6 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Coachingtermin buchen – Wolfgang Tietz",
   description: "Terminbuchung für ein Coachinggespräch mit Executive Coach Wolfgang Tietz.",
+
+  robots: {
+    index: false,
+    follow: false,
+  },
+
   openGraph: {
     type: "website",
     url: "https://wolfgangtietz.com/session",
