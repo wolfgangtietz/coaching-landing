@@ -60,22 +60,22 @@ export default function Home() {
         {/* Hero Section */}
               <section className="flex flex-col items-center text-center px-6 max-w-4xl mx-auto py-32 md:py-40">
                         <h1 className="text-5xl md:text-8xl font-light tracking-tight mb-16 leading-[1.15] text-zinc-100 max-w-4xl">
-  Führung unter komplexen Bedingungen.
+  Die schwierigsten Entscheidungen entstehen dort,
+wo Erwartungen sich widersprechen.
 </h1>
 
 <p className="text-zinc-500 text-sm font-light max-w-xl mx-auto mb-10">
-  Executive Sparring in Rollenwechseln,
-Transformation und organisationalen Machtstrukturen.
+  Executive Coaching für Verantwortungsträger in komplexen Organisationen.
 </p>
 <div className="flex flex-col items-center gap-6">
   <a
     href="#booking-button"
     className="bg-zinc-100 text-black px-12 py-3 rounded-sm text-base font-medium hover:bg-white hover:-translate-y-[1px] transition-all"
   >
-    Gespräch vereinbaren
+    Erstgespräch vereinbaren
   </a>
     <p className="text-zinc-400 text-sm font-light">
-  Ein erstes Gespräch. Vertraulich. Ohne Verpflichtung.
+  Ein erstes Gespräch über Ihre aktuelle Situation.
 </p>
 </div>
 
@@ -87,12 +87,12 @@ Transformation und organisationalen Machtstrukturen.
           <div className="max-w-5xl mx-auto">
 
 <h2 className="text-4xl font-light text-center mb-12 text-zinc-100">
-Strukturelle Spannungen in Organisationen
+In komplexen Organisationen widersprechen sich Erwartungen häufig
 </h2>
 
 <p className="text-center text-zinc-400 font-light mb-20 max-w-2xl mx-auto">
-Viele Coachinganfragen entstehen nicht aus persönlichen Problemen,
-sondern aus strukturellen Spannungen in Organisationen.
+Viele schwierige Entscheidungen entstehen nicht aus mangelnder Information,
+sondern aus widersprüchlichen Erwartungen zwischen unterschiedlichen Teilen der Organisation.
 </p>
 
 <div className="grid md:grid-cols-3 gap-24">
@@ -132,25 +132,29 @@ sondern aus strukturellen Spannungen in Organisationen.
 <section className="py-28 px-6">
   <div className="max-w-3xl mx-auto">
     <h2 className="text-4xl font-light mb-16 text-zinc-100">
-      Situationen aus meiner Coachingpraxis
-    </h2>
+  Typische Situationen meiner Klienten
+</h2>
 
-    <ul className="space-y-8 text-zinc-300 text-lg font-light leading-relaxed">
+<ul className="space-y-8 text-zinc-300 text-lg font-light leading-relaxed">
 
   <li>
-    Sie bewegen sich zwischen widersprüchlichen Erwartungen von Vorstand, Peers und Organisation.
-  </li>
-  
-  <li>
-    Sie übernehmen eine neue Führungsrolle – und stellen fest, dass die alten Muster nicht mehr funktionieren.
+    Sie tragen Verantwortung für eine Entscheidung, bei der unterschiedliche Teile der Organisation gegensätzliche Erwartungen haben.
   </li>
 
   <li>
-    Transformation verändert Strukturen, aber Verantwortung und Erwartungen bleiben bei Ihnen.
+    Eine Situation ist sachlich analysiert, trotzdem wird die Entscheidung immer wieder verschoben.
   </li>
-  
+
   <li>
-    Sie müssen Entscheidungen treffen, obwohl die Systemlogik der Organisation selbst unscharf geworden ist.
+    Eine Option erscheint rational sinnvoll, fühlt sich jedoch schwer vertretbar an.
+  </li>
+
+  <li>
+    Gespräche innerhalb der Organisation bringen neue Argumente – aber keine größere Klarheit.
+  </li>
+
+  <li>
+    Die Entscheidung betrifft nicht nur organisatorische Erwartungen, sondern auch persönliche Verantwortungsmaßstäbe.
   </li>
 
 </ul>
@@ -169,13 +173,23 @@ sondern aus strukturellen Spannungen in Organisationen.
             </div>
             <div className="space-y-6">
               <p className="text-xl font-light leading-relaxed text-zinc-300 max-w-2xl">
-  Ich begleite Führungskräfte, die in komplexen Organisationen unter
-  veränderten strukturellen Bedingungen wirksam bleiben müssen. Meine
-  Arbeit verbindet Führungserfahrung im Konzern, Transformationserfahrung
-  aus agilen und hybriden Systemen sowie professionelles Executive
-  Coaching. Im Mittelpunkt stehen Rollenklarheit, politische
-  Navigationsfähigkeit und wirksame Führung, wenn klassische Hierarchie an
-  Eindeutigkeit verliert.
+  Ich arbeite mit Verantwortungsträgern in komplexen Organisationen.
+  Viele meiner Klienten tragen Verantwortung in internationalen Unternehmen
+  – etwa als globale Funktionsleiter, Bereichsleiter oder
+  Programmverantwortliche in großen Transformationsvorhaben.
+
+  Sie stehen regelmäßig vor Situationen, in denen Erwartungen aus
+  unterschiedlichen Teilen der Organisation aufeinandertreffen.
+</p>
+<p className="text-xl font-light leading-relaxed text-zinc-300 max-w-2xl">
+  Viele meiner Klienten kennen ihre Organisation sehr genau. Sie haben ihre
+  Situation oft bereits lange analysiert und verschiedene Optionen
+  durchdacht.
+
+  Im Coaching arbeiten wir deshalb nicht an der Organisation oder an
+  Führungsrezepten. Wir arbeiten an der Ebene, auf der Entscheidungen
+  tatsächlich entstehen: an Perspektiven, inneren Regeln, Selbstverständnis
+  und Handlungsspielraum.
 </p>
             </div>
           </div>
@@ -185,7 +199,7 @@ sondern aus strukturellen Spannungen in Organisationen.
         <section id="perspektiven" className="py-28 px-6 border-t border-zinc-900">
   <div className="max-w-3xl mx-auto">
     <h2 className="text-4xl font-light mb-16 text-zinc-100">
-  Meine Perspektive auf Führung in komplexen Organisationen
+  Entscheidungen in komplexen Organisationen
 </h2>
 
     <div className="space-y-10 text-zinc-300 text-lg font-light leading-relaxed">
@@ -216,7 +230,7 @@ sondern aus strukturellen Spannungen in Organisationen.
         <section className="py-28 px-6">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl font-light mb-16 text-center text-zinc-100">
-  Führungssituationen, mit denen Klienten zu mir kommen
+  Situationen aus meiner Coachingpraxis
 </h2>
             <Accordion items={caseStudies} />
           </div>
@@ -226,13 +240,14 @@ sondern aus strukturellen Spannungen in Organisationen.
         <section className="py-24 px-6 text-center border-t border-zinc-900">
   <div className="max-w-2xl mx-auto">
     <h2 className="text-3xl font-light mb-8 text-zinc-100">
-      Ein erstes Gespräch über Ihre aktuelle Führungssituation
-    </h2>
+  Ein erstes Gespräch über Ihre aktuelle Situation
+</h2>
 
-    <p className="text-zinc-400 font-light mb-12">
-      In einem ersten Gespräch klären wir Ihre aktuelle Führungssituation
-      und prüfen gemeinsam, ob ein Coaching sinnvoll ist.
-    </p>
+<p className="text-zinc-400 font-light mb-12">
+  In diesem Gespräch schildern Sie Ihre aktuelle Situation.
+  Wir betrachten gemeinsam, worum es in Ihrer Entscheidungssituation geht
+  und ob ein Coachinggespräch sinnvoll sein kann.
+</p>
   </div>
 </section>
         <BookingSection />
