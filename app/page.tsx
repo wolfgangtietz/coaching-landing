@@ -74,9 +74,9 @@ wo Erwartungen sich widersprechen.
   >
     Erstgespräch vereinbaren
   </a>
-    <p className="text-zinc-400 text-sm font-light">
-  Ein erstes Gespräch über Ihre aktuelle Situation.
-</p>
+   <h2 className="text-3xl font-light mb-8 text-zinc-100">
+  Erstgespräch
+</h2>
 </div>
 
         </section>
