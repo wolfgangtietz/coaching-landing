@@ -182,14 +182,14 @@ sondern aus widersprüchlichen Erwartungen zwischen unterschiedlichen Teilen der
   unterschiedlichen Teilen der Organisation aufeinandertreffen.
 </p>
 <p className="text-xl font-light leading-relaxed text-zinc-300 max-w-2xl">
-  Viele meiner Klienten kennen ihre Organisation sehr genau. Sie haben ihre
-  Situation oft bereits lange analysiert und verschiedene Optionen
+  Viele meiner Klienten kennen ihre Organisation sehr genau. Ihre Situation
+  ist oft bereits umfassend analysiert und verschiedene Optionen sind
   durchdacht.
 
-  Im Coaching arbeiten wir deshalb nicht an der Organisation oder an
-  Führungsrezepten. Wir arbeiten an der Ebene, auf der Entscheidungen
-  tatsächlich entstehen: an Perspektiven, inneren Regeln, Selbstverständnis
-  und Handlungsspielraum.
+  Im Coaching geht es deshalb nicht darum, Lösungen vorzugeben.
+  Sondern darum, Situationen so klar zu betrachten, dass neue
+  Handlungsmöglichkeiten sichtbar werden und Entscheidungen möglich werden,
+  die zuvor vermieden wurden.
 </p>
             </div>
           </div>
