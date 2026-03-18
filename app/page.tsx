@@ -100,7 +100,7 @@ wenn Erwartungen sich widersprechen.
 </p>
 <div className="flex flex-col items-center gap-6">
   <Link
-  href="/session"
+  href="#booking"
   className="bg-zinc-100 text-black px-12 py-3 rounded-sm text-base font-medium hover:bg-white hover:-translate-y-[1px] transition-all"
 >
   Erstgespräch vereinbaren
@@ -209,15 +209,15 @@ sondern aus widersprüchlichen Erwartungen zwischen unterschiedlichen Teilen der
   Sie stehen regelmäßig vor Situationen, in denen Erwartungen aus
   unterschiedlichen Teilen der Organisation aufeinandertreffen.
 </p>
-<p className="text-xl font-light leading-relaxed text-zinc-300 max-w-2xl">
-  Viele meiner Klienten kennen ihre Organisation sehr genau. Ihre Situation
-  ist oft bereits umfassend analysiert und verschiedene Optionen sind
-  durchdacht.
+<p className="text-zinc-400 font-light mb-8">
+  Viele meiner Klienten kommen mit einer Entscheidungssituation,
+  die sie bereits lange analysiert haben – und trotzdem nicht
+  abschließend klären konnten.
+</p>
 
-  Im Coaching geht es deshalb nicht darum, Lösungen vorzugeben.
-  Sondern darum, Situationen so klar zu betrachten, dass neue
-  Handlungsmöglichkeiten sichtbar werden und Entscheidungen möglich werden,
-  die zuvor vermieden wurden.
+<p className="text-zinc-400 font-light mb-12">
+  Im Gespräch betrachten wir gemeinsam,
+  worum es in Ihrer Situation tatsächlich geht.
 </p>
             </div>
           </div>
@@ -264,40 +264,35 @@ sondern aus widersprüchlichen Erwartungen zwischen unterschiedlichen Teilen der
         {/* Booking */}
         <section className="py-24 px-6 text-center border-t border-zinc-900">
   <div className="max-w-2xl mx-auto">
+
     <h2 className="text-3xl font-light mb-8 text-zinc-100">
-  Ein erstes Gespräch über Ihre aktuelle Situation
-</h2>
+      Ein erstes Gespräch über Ihre aktuelle Situation
+    </h2>
 
-<>
-  <p className="text-zinc-400 font-light mb-8">
-    Viele meiner Klienten kommen mit einer Entscheidungssituation,
-    die sie bereits lange analysiert haben – und trotzdem nicht
-    abschließend klären konnten.
-  </p>
+    <p className="text-zinc-400 font-light mb-8">
+      Viele meiner Klienten kommen mit einer Entscheidungssituation,
+      die sie bereits lange analysiert haben – und trotzdem nicht
+      abschließend klären konnten.
+    </p>
 
-  <p className="text-zinc-400 font-light mb-12">
-    Im Gespräch betrachten wir gemeinsam,
-    worum es in Ihrer Situation tatsächlich geht.
-  </p>
-</>
+    <p className="text-zinc-400 font-light mb-12">
+      Im Gespräch betrachten wir gemeinsam,
+      worum es in Ihrer Situation tatsächlich geht.
+    </p>
+
   </div>
 </section>
         <BookingSection />
         <footer className="border-t border-zinc-900 mt-24 py-10 text-center">
   <div className="flex items-center justify-center gap-6 text-sm text-zinc-500">
 
-    <Link href="/impressum" className="hover:text-zinc-300 transition-colors">
-      Impressum
-    </Link>
+    <a href="/impressum" className="hover:text-zinc-300 transition-colors">
+  Impressum
+</a>
 
-    <Link href="/datenschutz" className="hover:text-zinc-300 transition-colors">
-      Datenschutz
-    </Link>
-
-    <Link href="/session" className="hover:text-zinc-300 transition-colors">
-      Termin für Klienten
-    </Link>
-
+<a href="/datenschutz" className="hover:text-zinc-300 transition-colors">
+  Datenschutz
+</a>
   </div>
 </footer>
       </main>
