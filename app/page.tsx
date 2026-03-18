@@ -28,9 +28,16 @@ Ergebnis: Die Entscheidungssituation wurde klarer, sodass die nächsten Schritte
 },
   },
   {
-    title: "Nachfolge im Familienunternehmen",
-    content:
-      "Die Übergabe der Geschäftsführung an die nächste Generation erforderte mehr als nur rechtliche Verträge. Wir arbeiteten an der emotionalen Neuausrichtung des Seniors und der Rollenklärung des Juniors. Durch diesen tiefgreifenden Prozess wurde die Identität des Unternehmens gewahrt, während gleichzeitig Platz für moderne Führungsstrukturen geschaffen wurde. Die operative Stabilität blieb während des gesamten Übergangs von zwei Jahren vollumfänglich erhalten.",
+    {
+  title: "Geschäftsführung im Mittelstand zwischen Markt, Organisation und Verantwortung",
+  content: `Situation: Ein Geschäftsführer eines mittelständischen Unternehmens stand zwischen steigenden Markterwartungen, internen Führungsanforderungen und der eigenen Verantwortung für zentrale Entscheidungen.
+
+Viele Themen liefen weiterhin über seinen Schreibtisch, obwohl klar war, dass diese Struktur langfristig nicht tragfähig war.
+
+Dynamik: Im Gespräch wurde sichtbar, welche Entscheidungen tatsächlich delegierbar waren und wo persönliche Verantwortungsmaßstäbe eine Rolle spielten.
+
+Ergebnis: Die Situation wurde klarer, wodurch konkrete Entscheidungen über Prioritäten, Delegation und eigene Rolle möglich wurden.`,
+},
   },
   {
     title: "Führung unter extremer Belastung",
