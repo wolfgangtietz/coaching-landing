@@ -25,36 +25,24 @@ export const metadata: Metadata = {
 
 export default function SessionPage() {
   return (
-    <main className="min-h-screen bg-black text-zinc-100 px-6 py-24">
+    <main className="min-h-screen bg-black text-zinc-100 px-6 py-12">
       <section className="max-w-3xl mx-auto text-center">
-        <a
-  href="/"
-  className="text-zinc-500 text-sm underline underline-offset-4 hover:text-zinc-300 transition-colors"
->
-  Zur Website
-</a><a
-href="/"
-className="text-zinc-500 text-sm underline underline-offset-4 hover:text-zinc-300 transition-colors"
->
+  <a
+    href="/"
+    className="text-zinc-500 text-sm underline underline-offset-4 hover:text-zinc-300 transition-colors"
+  >
+    Zur Website
+  </a>
 
-</a>
-       <h1 className="text-4xl md:text-6xl font-light leading-tight mb-8">
-  Nächsten Coachingtermin vereinbaren
-</h1>
+  <h1 className="text-4xl md:text-6xl font-light leading-tight mb-8">
+    Nächsten Coachingtermin vereinbaren
+  </h1>
 
-        <p className="text-zinc-400 text-lg font-light max-w-2xl mx-auto mb-16">
-          Diese Seite richtet sich an bestehende Klienten. Hier können Sie direkt
-den nächsten Coachingtermin vereinbaren.
-        </p>
-      </section>
-
-      <section className="max-w-4xl mxs-auto pt-12">
-        <iframe
-          src="https://cal.meetergo.com/wolfgangtietz/coachingtermin"
-          style={{ width: "100%", height: "1000px", border: "none" }}
-          title="Terminbuchung Coaching"
-        />
-      </section>
+  <p className="text-zinc-400 text-lg font-light max-w-2xl mx-auto mb-16">
+    Diese Seite richtet sich an bestehende Klienten. Hier können Sie direkt
+    den nächsten Coachingtermin vereinbaren.
+  </p>
+</section>
     </main>
   );
 }
