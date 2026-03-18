@@ -32,6 +32,11 @@ export default function SessionPage() {
   className="text-zinc-500 text-sm underline underline-offset-4 hover:text-zinc-300 transition-colors"
 >
   Zur Website
+</a><a
+href="/"
+className="text-zinc-500 text-sm underline underline-offset-4 hover:text-zinc-300 transition-colors"
+>
+Zur Website
 </a>
        <h1 className="text-4xl md:text-6xl font-light leading-tight mb-8">
   Nächsten Coachingtermin vereinbaren
@@ -43,10 +48,10 @@ den nächsten Coachingtermin vereinbaren.
         </p>
       </section>
 
-      <section className="max-w-4xl mx-auto pt-12">
+      <section className="max-w-4xl mxs-auto pt-12">
         <iframe
           src="https://cal.meetergo.com/wolfgangtietz/coachingtermin"
-          style={{ width: "100%", height: "900px", border: "none" }}
+          style={{ width: "100%", height: "1000px", border: "none" }}
           title="Terminbuchung Coaching"
         />
       </section>
