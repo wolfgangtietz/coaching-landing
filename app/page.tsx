@@ -5,7 +5,7 @@ import Link from "next/link";
 const caseStudies = [
   {
     title: "Entscheidung zwischen widersprüchlichen Erwartungen",
-content: `Situation: Ein Bereichsleiter eines internationalen Industriekonzerns stand zwischen Erwartungen des Vorstands, Anforderungen aus den Regionen und Interessen zentraler Funktionen.
+    content: `Situation: Ein Bereichsleiter eines internationalen Industriekonzerns stand zwischen Erwartungen des Vorstands, Anforderungen aus den Regionen und Interessen zentraler Funktionen.
 
 Die Situation war sachlich analysiert und verschiedene Optionen lagen auf dem Tisch. Trotzdem wurde die Entscheidung immer wieder verschoben.
 
@@ -16,33 +16,34 @@ Bestimmte Optionen waren rational möglich, fühlten sich jedoch schwer vertretb
 Ergebnis: Die Situation wurde klarer, wodurch eine Entscheidung möglich wurde, die zuvor immer wieder vermieden worden war.`,
   },
   {
-    t{
-  title: "Strategische Entscheidung im Führungskreis",
-  content: `Situation: Nach einer größeren organisatorischen Veränderung stand ein Führungsteam vor einer strategischen Richtungsentscheidung.
+    title: "Strategische Entscheidung im Führungskreis",
+    content: `Situation: Nach einer größeren organisatorischen Veränderung stand ein Führungsteam vor einer strategischen Richtungsentscheidung.
 
 Sachlich waren mehrere Optionen möglich. Gleichzeitig vertraten unterschiedliche Teile der Organisation Erwartungen, die nicht vollständig miteinander vereinbar waren.
 
 Dynamik: Im Gespräch wurde sichtbar, welche Erwartungen tatsächlich entscheidungsrelevant waren und welche eher Ausdruck organisatorischer Dynamik.
 
 Ergebnis: Die Entscheidungssituation wurde klarer, sodass die nächsten Schritte im Führungskreis vorbereitet und vertreten werden konnten.`,
-},
   },
   {
-    {
-  title: "Geschäftsführung im Mittelstand zwischen Markt, Organisation und Verantwortung",
-  content: `Situation: Ein Geschäftsführer eines mittelständischen Unternehmens stand zwischen steigenden Markterwartungen, internen Führungsanforderungen und der eigenen Verantwortung für zentrale Entscheidungen.
+    title: "Geschäftsführung im Mittelstand zwischen Markt, Organisation und Verantwortung",
+    content: `Situation: Ein Geschäftsführer eines mittelständischen Unternehmens stand zwischen steigenden Markterwartungen, internen Führungsanforderungen und der eigenen Verantwortung für zentrale Entscheidungen.
 
 Viele Themen liefen weiterhin über seinen Schreibtisch, obwohl klar war, dass diese Struktur langfristig nicht tragfähig war.
 
 Dynamik: Im Gespräch wurde sichtbar, welche Entscheidungen tatsächlich delegierbar waren und wo persönliche Verantwortungsmaßstäbe eine Rolle spielten.
 
 Ergebnis: Die Situation wurde klarer, wodurch konkrete Entscheidungen über Prioritäten, Delegation und eigene Rolle möglich wurden.`,
-},
   },
   {
-    title: "Führung unter extremer Belastung",
-    content:
-      "Ein High-Performance-Manager in der Automobilbranche stand kurz vor dem Point-of-no-Return. Durch eine bewusste Dekonstruktion der Leistungsidentität und eine Neuausrichtung der persönlichen Prioritäten wurde nicht nur die Gesundheit gesichert, sondern auch die Führungseffektivität gesteigert. Der Klient entwickelte eine Form der 'ruhigen Autorität', die seine Abteilung souveräner durch Krisenzeiten steuerte als der zuvor praktizierte Hyper-Aktivismus.",
+    title: "Transformation zwischen Geschwindigkeit und Stabilität",
+    content: `Situation: Ein Programmleiter verantwortete eine größere Transformation, während das operative Geschäft gleichzeitig stabil weiterlaufen musste.
+
+Die Erwartungen aus unterschiedlichen Teilen der Organisation waren nachvollziehbar, aber nicht vollständig vereinbar.
+
+Dynamik: Im Gespräch wurde sichtbar, welche Konsequenzen einzelne Optionen tatsächlich hatten und welche Erwartungen dabei eine Rolle spielten.
+
+Ergebnis: Die Situation wurde klarer, sodass Prioritäten gesetzt und Entscheidungen getroffen werden konnten, die zuvor immer wieder aufgeschoben worden waren.`,
   },
 ];
 
