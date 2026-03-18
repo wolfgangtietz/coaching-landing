@@ -8,7 +8,7 @@ export default function BookingSection() {
     <section id="booking" className="scroll-mt-32 py-20 px-6 text-center border-t border-zinc-900">
       {!showMeetergo ? (
         <div className="max-w-2xl mx-auto pt-8">
-          <h2 className="text-3xl font-light mb-8 text-white">Bereit für eine neue Perspektive?</h2>
+          <h2 className="text-3xl font-light mb-8 text-white">„Ein erstes Gespräch über Ihre Situation“</h2>
          <button
   id="booking-button"
   onClick={() => setShowMeetergo(true)}
@@ -16,13 +16,13 @@ export default function BookingSection() {
           >
             Erstgespräch vereinbaren
           </button>
-          <p className="mt-6 text-zinc-400 font-light">30 Minuten. Vertraulich. Klärung Ihrer aktuellen Führungssituation.</p>
+          <p className="mt-6 text-zinc-400 font-light">30 Minuten. Vertraulich. Ein Gespräch über Ihre aktuelle Situation.</p>
         </div>
       ) : (
         <div className="w-full max-w-4xl mx-auto min-h-[600px] animate-fade-in">
           <iframe
             src="https://cal.meetergo.com/wolfgangtietz/erstgespraech"
-            style={{ width: "100%", height: "900px", border: "none" }}
+            style={{ width: "100%", height: "1000px", border: "none" }}
             title="Meetergo Booking"
           />
         </div>
