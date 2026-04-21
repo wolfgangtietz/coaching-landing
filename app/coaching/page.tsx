@@ -44,24 +44,16 @@ export default function CoachingSessionPage() {
 
 </section>
 <section className="max-w-3xl mx-auto text-center pt-16">
-  <p className="text-zinc-300 text-lg font-light mb-4">
-    Coaching-Session (60 Minuten)
-  </p>
-
-  <p className="text-3xl font-light mb-8">
-    180 € inkl. MwSt.
-  </p>
-
-  <p className="text-zinc-500 text-sm mb-12">
-    Die Online-Buchung mit Zahlung wird nach Freischaltung des Geschäftskontos hier direkt verfügbar sein.
-  </p>
+ <p className="text-zinc-400 text-lg font-light max-w-2xl mx-auto">
+  Ein Erstgespräch ist aktuell der einzige Einstieg.
+</p>
 
   <div className="mt-12">
     <a
       href="/"
       className="inline-block border border-zinc-700 px-8 py-4 text-sm tracking-wide hover:bg-zinc-900 transition"
     >
-      Termin anfragen
+      Erstgespräch vereinbaren
     </a>
   </div>
 </section>
