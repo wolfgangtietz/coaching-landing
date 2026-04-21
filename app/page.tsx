@@ -98,14 +98,24 @@ wenn Erwartungen sich widersprechen.
 <p className="text-zinc-500 text-sm font-light max-w-xl mx-auto mb-10">
   Executive Coaching für Verantwortungsträger in komplexen Organisationen.
 </p>
-<div className="flex flex-col items-center gap-6">
+<div className="flex flex-col sm:flex-row items-center justify-center gap-4">
   <Link
-  href="#booking"
-  className="bg-zinc-100 text-black px-12 py-3 rounded-sm text-base font-medium hover:bg-white hover:-translate-y-[1px] transition-all"
->
-  Erstgespräch vereinbaren
-</Link>
-   </div>
+    href="#booking"
+    className="bg-zinc-100 text-black px-12 py-3 rounded-sm text-base font-medium hover:bg-white hover:-translate-y-[1px] transition-all"
+  >
+    Erstgespräch vereinbaren
+  </Link>
+
+  <Link
+    href="/coaching"
+    className="border border-zinc-700 text-zinc-100 px-12 py-3 rounded-sm text-base font-medium hover:bg-zinc-900 hover:-translate-y-[1px] transition-all"
+  >
+    Coaching-Session
+  </Link>
+  <p className="text-zinc-500 text-sm font-light mt-6 max-w-md text-center">
+  Erstgespräch zum Kennenlernen oder direkt eine Coaching-Session zu einer konkreten Entscheidungssituation buchen.
+</p>
+</div>
 
         </section>
         <div className="max-w-4xl mx-auto border-t border-zinc-700 mt-32"></div>
@@ -262,7 +272,7 @@ sondern aus widersprüchlichen Erwartungen zwischen unterschiedlichen Teilen der
         </section>
 
         {/* Booking */}
-        <section className="py-24 px-6 text-center border-t border-zinc-900">
+        <section id="booking" className="py-24 px-6 text-center border-t border-zinc-900">
   <div className="max-w-2xl mx-auto">
 
     <h2 className="text-3xl font-light mb-8 text-zinc-100">

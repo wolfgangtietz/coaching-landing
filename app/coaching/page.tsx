@@ -53,7 +53,7 @@ export default function CoachingSessionPage() {
   </p>
 
   <p className="text-zinc-500 text-sm mb-12">
-    Die Online-Buchung wird nach Freischaltung des Zahlungssystems hier direkt verfügbar sein.
+    Die Online-Buchung mit Zahlung wird nach Freischaltung des Geschäftskontos hier direkt verfügbar sein.
   </p>
 
   <div className="mt-12">
